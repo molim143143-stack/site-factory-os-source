@@ -1,0 +1,2 @@
+title: Bulk Article
+content: Hello from bulk
