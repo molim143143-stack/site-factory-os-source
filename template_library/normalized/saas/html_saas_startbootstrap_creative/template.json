@@ -1,0 +1,28 @@
+{
+  "id": "html_saas_startbootstrap_creative",
+  "name": "startbootstrap-creative",
+  "repo_url": "https://github.com/startbootstrap/startbootstrap-creative",
+  "repo_name": "startbootstrap-creative",
+  "stars": 2070,
+  "license": "MIT",
+  "framework": "html",
+  "category": "saas",
+  "last_commit": "2023-03-25T19:40:38Z",
+  "source_path": "template_library/raw/html/startbootstrap-creative/dist/index.html",
+  "local_raw_path": "template_library/raw/html/startbootstrap-creative",
+  "normalized_path": "template_library/normalized/saas/html_saas_startbootstrap_creative",
+  "template_type": "static_template",
+  "status": "available",
+  "entry": "index.html",
+  "preview": "preview.html",
+  "checks": {
+    "header": true,
+    "hero": true,
+    "features": true,
+    "cta": true,
+    "footer": true,
+    "html_length": 16606,
+    "css_length": 243744,
+    "blocks": 14
+  }
+}
