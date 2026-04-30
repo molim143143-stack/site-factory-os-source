@@ -63,7 +63,7 @@ Cloudflare real mode requires:
 
 ```text
 CLOUDFLARE_MODE=real
-CLOUDFLARE_API_TOKEN=
+CLOUDFLARE_API_TOKEN
 CLOUDFLARE_ACCOUNT_ID=
 ```
 
