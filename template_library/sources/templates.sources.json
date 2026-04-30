@@ -1,0 +1,72 @@
+[
+  {
+    "name": "startbootstrap-landing-page",
+    "repo_url": "https://github.com/startbootstrap/startbootstrap-landing-page",
+    "framework": "html",
+    "category": "landing",
+    "approved": true
+  },
+  {
+    "name": "startbootstrap-agency",
+    "repo_url": "https://github.com/startbootstrap/startbootstrap-agency",
+    "framework": "html",
+    "category": "agency",
+    "approved": true
+  },
+  {
+    "name": "startbootstrap-creative",
+    "repo_url": "https://github.com/startbootstrap/startbootstrap-creative",
+    "framework": "html",
+    "category": "saas",
+    "approved": true
+  },
+  {
+    "name": "startbootstrap-clean-blog",
+    "repo_url": "https://github.com/startbootstrap/startbootstrap-clean-blog",
+    "framework": "html",
+    "category": "blog",
+    "approved": true
+  },
+  {
+    "name": "startbootstrap-blog-home",
+    "repo_url": "https://github.com/startbootstrap/startbootstrap-blog-home",
+    "framework": "html",
+    "category": "blog",
+    "approved": true
+  },
+  {
+    "name": "startbootstrap-freelancer",
+    "repo_url": "https://github.com/startbootstrap/startbootstrap-freelancer",
+    "framework": "html",
+    "category": "portfolio",
+    "approved": true
+  },
+  {
+    "name": "portfolio-html",
+    "repo_url": "https://github.com/CommunityPro/portfolio-html",
+    "framework": "html",
+    "category": "portfolio",
+    "approved": true
+  },
+  {
+    "name": "iDocs",
+    "repo_url": "https://github.com/harnishdesign/iDocs",
+    "framework": "html",
+    "category": "docs",
+    "approved": true
+  },
+  {
+    "name": "startbootstrap-shop-homepage",
+    "repo_url": "https://github.com/startbootstrap/startbootstrap-shop-homepage",
+    "framework": "html",
+    "category": "ecommerce",
+    "approved": true
+  },
+  {
+    "name": "startbootstrap-shop-item",
+    "repo_url": "https://github.com/startbootstrap/startbootstrap-shop-item",
+    "framework": "html",
+    "category": "ecommerce",
+    "approved": true
+  }
+]
