@@ -1,0 +1,2 @@
+title: Full Bulk Article
+content: Bulk article body
