@@ -1,6 +1,7 @@
 import json
 
-from fastapi import APIRouter, Depends, Request
+from fastapi import APIRouter, Depends, HTTPException, Request
+from fastapi.responses import FileResponse
 from sqlalchemy.orm import Session
 
 from config import BASE_DIR
@@ -14,6 +15,32 @@ from core.utils import model_dict
 router = APIRouter(prefix="/api/v1")
 builder = BuilderEngine()
 tasks = TaskEngine()
+
+
+def _template_items() -> list[dict]:
+    index_path = BASE_DIR / "template_library" / "meta" / "templates.index.json"
+    if not index_path.exists():
+        return []
+    try:
+        data = json.loads(index_path.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return []
+    items = data.get("templates", data if isinstance(data, list) else [])
+    available = []
+    for item in items:
+        if item.get("status") != "available" or not item.get("can_use_in_builder"):
+            continue
+        if not item.get("page_schema") and item.get("normalized_path"):
+            schema_path = BASE_DIR / item["normalized_path"] / "page.schema.json"
+            if schema_path.exists():
+                try:
+                    item["page_schema"] = json.loads(schema_path.read_text(encoding="utf-8"))
+                except json.JSONDecodeError:
+                    item["page_schema"] = {"blocks": []}
+        if item.get("id"):
+            item["preview_image_url"] = f"/api/v1/builder/templates/{item['id']}/preview.png"
+        available.append(item)
+    return available
 
 
 @router.post("/sites/{site_id}/pages")
@@ -86,24 +113,20 @@ def themes():
 
 @router.get("/builder/templates")
 def template_library():
-    index_path = BASE_DIR / "template_library" / "meta" / "templates.index.json"
-    if not index_path.exists():
-        return {"items": []}
-    try:
-        data = json.loads(index_path.read_text(encoding="utf-8"))
-    except json.JSONDecodeError:
-        return {"items": []}
-    items = data.get("templates", data if isinstance(data, list) else [])
-    available = []
-    for item in items:
-        if item.get("status") != "available" or not item.get("can_use_in_builder"):
+    return {"items": _template_items()}
+
+
+@router.get("/builder/templates/{template_id}/preview.png")
+def template_preview(template_id: str):
+    for item in _template_items():
+        if item.get("id") != template_id:
             continue
-        if not item.get("page_schema") and item.get("normalized_path"):
-            schema_path = BASE_DIR / item["normalized_path"] / "page.schema.json"
-            if schema_path.exists():
-                try:
-                    item["page_schema"] = json.loads(schema_path.read_text(encoding="utf-8"))
-                except json.JSONDecodeError:
-                    item["page_schema"] = {"blocks": []}
-        available.append(item)
-    return {"items": available}
+        normalized = (BASE_DIR / item.get("normalized_path", "")).resolve()
+        library_root = (BASE_DIR / "template_library" / "normalized").resolve()
+        if library_root not in normalized.parents and normalized != library_root:
+            break
+        preview = normalized / "preview.png"
+        if preview.exists():
+            return FileResponse(preview, media_type="image/png")
+        break
+    raise HTTPException(status_code=404, detail="template preview not found")
