@@ -1,0 +1,2 @@
+title: Proof Bulk Article
+content: Bulk body
