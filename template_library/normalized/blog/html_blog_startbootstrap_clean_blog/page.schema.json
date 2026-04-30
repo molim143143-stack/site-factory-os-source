@@ -1,0 +1,446 @@
+{
+  "templateId": "html_blog_startbootstrap_clean_blog",
+  "type": "page_template",
+  "template_type": "static_template",
+  "mode": "static_template",
+  "schemaVersion": 3,
+  "static_template": {
+    "normalized_path": "template_library/normalized/blog/html_blog_startbootstrap_clean_blog",
+    "entry": "index.html",
+    "preview": "preview.html",
+    "asset_root": "assets/site"
+  },
+  "blocks": [
+    {
+      "id": "ctasection_1_d1d85f103765dc22",
+      "type": "CTASection",
+      "enabled": true,
+      "x": 48,
+      "y": 32,
+      "width": 1104,
+      "height": 280,
+      "scale": 1,
+      "layout": {
+        "mode": "absolute",
+        "x": 48,
+        "y": 32,
+        "zIndex": 2
+      },
+      "style": {
+        "width": 1104,
+        "height": 280,
+        "margin": "0",
+        "padding": "28px",
+        "background": "#111827",
+        "color": "#E5F7FF",
+        "buttonColor": "#2563EB",
+        "borderColor": "#E2E8F0",
+        "borderRadius": 18
+      },
+      "props": {
+        "sourceSelector": "nav",
+        "sourceClass": "navbar navbar-expand-lg navbar-light",
+        "sourceHash": "d1d85f103765dc22"
+      },
+      "action": {
+        "type": "external_url",
+        "target": "#contact",
+        "open_mode": "same_tab",
+        "tracking_id": "template_blog_ctasection"
+      },
+      "translations": {
+        "en": {
+          "title": "Start Bootstrap Menu Home About Sample Post Contact",
+          "subtitle": "Blog",
+          "body": "Start Bootstrap Menu Home About Sample Post Contact",
+          "label": "Contact"
+        }
+      },
+      "source": {
+        "type": "CTASection",
+        "selector": "nav",
+        "className": "navbar navbar-expand-lg navbar-light",
+        "text": "Start Bootstrap Menu Home About Sample Post Contact",
+        "content_hash": "d1d85f103765dc22"
+      }
+    },
+    {
+      "id": "imagetext_2_ef80527461c5f101",
+      "type": "ImageText",
+      "enabled": true,
+      "x": 48,
+      "y": 354,
+      "width": 1104,
+      "height": 320,
+      "scale": 1,
+      "layout": {
+        "mode": "absolute",
+        "x": 48,
+        "y": 354,
+        "zIndex": 3
+      },
+      "style": {
+        "width": 1104,
+        "height": 320,
+        "margin": "0",
+        "padding": "28px",
+        "background": "#FFFFFF",
+        "color": "#0F172A",
+        "buttonColor": "#2563EB",
+        "borderColor": "#E2E8F0",
+        "borderRadius": 18
+      },
+      "props": {
+        "sourceSelector": "div",
+        "sourceClass": "container px-4 px-lg-5",
+        "sourceHash": "ef80527461c5f101"
+      },
+      "action": {
+        "type": "none",
+        "target": "",
+        "open_mode": "same_tab",
+        "tracking_id": "template_blog_imagetext"
+      },
+      "translations": {
+        "en": {
+          "title": "Start Bootstrap Menu Home About Sample Post Contact",
+          "subtitle": "Blog",
+          "body": "Start Bootstrap Menu Home About Sample Post Contact",
+          "label": "Contact"
+        }
+      },
+      "source": {
+        "type": "CTASection",
+        "selector": "div",
+        "className": "container px-4 px-lg-5",
+        "text": "Start Bootstrap Menu Home About Sample Post Contact",
+        "content_hash": "ef80527461c5f101"
+      }
+    },
+    {
+      "id": "hero_3_126c58567eeda3d5",
+      "type": "Hero",
+      "enabled": true,
+      "x": 48,
+      "y": 716,
+      "width": 1104,
+      "height": 430,
+      "scale": 1,
+      "layout": {
+        "mode": "absolute",
+        "x": 48,
+        "y": 716,
+        "zIndex": 4
+      },
+      "style": {
+        "width": 1104,
+        "height": 430,
+        "margin": "0",
+        "padding": "28px",
+        "background": "#F8FAFC",
+        "color": "#0F172A",
+        "buttonColor": "#2563EB",
+        "borderColor": "#E2E8F0",
+        "borderRadius": 18
+      },
+      "props": {
+        "sourceSelector": "header",
+        "sourceClass": "masthead",
+        "sourceHash": "126c58567eeda3d5"
+      },
+      "action": {
+        "type": "external_url",
+        "target": "#contact",
+        "open_mode": "same_tab",
+        "tracking_id": "template_blog_hero"
+      },
+      "translations": {
+        "en": {
+          "title": "Clean Blog A Blog Theme by Start Bootstrap",
+          "subtitle": "Blog",
+          "body": "Clean Blog A Blog Theme by Start Bootstrap",
+          "label": "Open"
+        }
+      },
+      "source": {
+        "type": "Hero",
+        "selector": "header",
+        "className": "masthead",
+        "text": "Clean Blog A Blog Theme by Start Bootstrap",
+        "content_hash": "126c58567eeda3d5"
+      }
+    },
+    {
+      "id": "trustbadge_4_9a3ad2bbe5ba005b",
+      "type": "TrustBadge",
+      "enabled": true,
+      "x": 48,
+      "y": 1188,
+      "width": 1104,
+      "height": 210,
+      "scale": 1,
+      "layout": {
+        "mode": "absolute",
+        "x": 48,
+        "y": 1188,
+        "zIndex": 5
+      },
+      "style": {
+        "width": 1104,
+        "height": 210,
+        "margin": "0",
+        "padding": "28px",
+        "background": "#FFFFFF",
+        "color": "#0F172A",
+        "buttonColor": "#2563EB",
+        "borderColor": "#E2E8F0",
+        "borderRadius": 18
+      },
+      "props": {
+        "sourceSelector": "div",
+        "sourceClass": "container px-4 px-lg-5",
+        "sourceHash": "9a3ad2bbe5ba005b"
+      },
+      "action": {
+        "type": "none",
+        "target": "",
+        "open_mode": "same_tab",
+        "tracking_id": "template_blog_trustbadge"
+      },
+      "translations": {
+        "en": {
+          "title": "Man must explore, and this is exploration at its greatest Problems look mighty",
+          "subtitle": "Blog",
+          "body": "Man must explore, and this is exploration at its greatest Problems look mighty small from 150 miles up Posted by Start Bootstrap on Septembe",
+          "label": "Open"
+        }
+      },
+      "source": {
+        "type": "TrustBadge",
+        "selector": "div",
+        "className": "container px-4 px-lg-5",
+        "text": "Man must explore, and this is exploration at its greatest Problems look mighty small from 150 miles up Posted by Start Bootstrap on Septembe",
+        "content_hash": "9a3ad2bbe5ba005b"
+      }
+    },
+    {
+      "id": "trustbadge_5_0b06aed37a7f23b3",
+      "type": "TrustBadge",
+      "enabled": true,
+      "x": 48,
+      "y": 1440,
+      "width": 1104,
+      "height": 210,
+      "scale": 1,
+      "layout": {
+        "mode": "absolute",
+        "x": 48,
+        "y": 1440,
+        "zIndex": 6
+      },
+      "style": {
+        "width": 1104,
+        "height": 210,
+        "margin": "0",
+        "padding": "28px",
+        "background": "#FFFFFF",
+        "color": "#0F172A",
+        "buttonColor": "#2563EB",
+        "borderColor": "#E2E8F0",
+        "borderRadius": 18
+      },
+      "props": {
+        "sourceSelector": "div",
+        "sourceClass": "post-preview",
+        "sourceHash": "0b06aed37a7f23b3"
+      },
+      "action": {
+        "type": "none",
+        "target": "",
+        "open_mode": "same_tab",
+        "tracking_id": "template_blog_trustbadge"
+      },
+      "translations": {
+        "en": {
+          "title": "I believe every human has a finite number of heartbeats.",
+          "subtitle": "Blog",
+          "body": "I don't intend to waste any of mine. Posted by Start Bootstrap on September 18, 202",
+          "label": "Open"
+        }
+      },
+      "source": {
+        "type": "TrustBadge",
+        "selector": "div",
+        "className": "post-preview",
+        "text": "I believe every human has a finite number of heartbeats. I don't intend to waste any of mine. Posted by Start Bootstrap on September 18, 202",
+        "content_hash": "0b06aed37a7f23b3"
+      }
+    },
+    {
+      "id": "trustbadge_6_c1889537a81affb3",
+      "type": "TrustBadge",
+      "enabled": true,
+      "x": 48,
+      "y": 1692,
+      "width": 1104,
+      "height": 210,
+      "scale": 1,
+      "layout": {
+        "mode": "absolute",
+        "x": 48,
+        "y": 1692,
+        "zIndex": 7
+      },
+      "style": {
+        "width": 1104,
+        "height": 210,
+        "margin": "0",
+        "padding": "28px",
+        "background": "#FFFFFF",
+        "color": "#0F172A",
+        "buttonColor": "#2563EB",
+        "borderColor": "#E2E8F0",
+        "borderRadius": 18
+      },
+      "props": {
+        "sourceSelector": "div",
+        "sourceClass": "post-preview",
+        "sourceHash": "c1889537a81affb3"
+      },
+      "action": {
+        "type": "none",
+        "target": "",
+        "open_mode": "same_tab",
+        "tracking_id": "template_blog_trustbadge"
+      },
+      "translations": {
+        "en": {
+          "title": "Science has not yet mastered prophecy We predict too much for the next year an",
+          "subtitle": "Blog",
+          "body": "Posted by Start Bootstr",
+          "label": "Open"
+        }
+      },
+      "source": {
+        "type": "TrustBadge",
+        "selector": "div",
+        "className": "post-preview",
+        "text": "Science has not yet mastered prophecy We predict too much for the next year and yet far too little for the next ten. Posted by Start Bootstr",
+        "content_hash": "c1889537a81affb3"
+      }
+    },
+    {
+      "id": "trustbadge_7_4e502fe4fdde8276",
+      "type": "TrustBadge",
+      "enabled": true,
+      "x": 48,
+      "y": 1944,
+      "width": 1104,
+      "height": 210,
+      "scale": 1,
+      "layout": {
+        "mode": "absolute",
+        "x": 48,
+        "y": 1944,
+        "zIndex": 8
+      },
+      "style": {
+        "width": 1104,
+        "height": 210,
+        "margin": "0",
+        "padding": "28px",
+        "background": "#FFFFFF",
+        "color": "#0F172A",
+        "buttonColor": "#2563EB",
+        "borderColor": "#E2E8F0",
+        "borderRadius": 18
+      },
+      "props": {
+        "sourceSelector": "div",
+        "sourceClass": "post-preview",
+        "sourceHash": "4e502fe4fdde8276"
+      },
+      "action": {
+        "type": "none",
+        "target": "",
+        "open_mode": "same_tab",
+        "tracking_id": "template_blog_trustbadge"
+      },
+      "translations": {
+        "en": {
+          "title": "Failure is not an option Many say exploration is part of our destiny, but it’s",
+          "subtitle": "Blog",
+          "body": "Posted by Start Boot",
+          "label": "Open"
+        }
+      },
+      "source": {
+        "type": "TrustBadge",
+        "selector": "div",
+        "className": "post-preview",
+        "text": "Failure is not an option Many say exploration is part of our destiny, but it’s actually our duty to future generations. Posted by Start Boot",
+        "content_hash": "4e502fe4fdde8276"
+      }
+    },
+    {
+      "id": "footer_8_b5483c989ba21565",
+      "type": "Footer",
+      "enabled": true,
+      "x": 48,
+      "y": 2196,
+      "width": 1104,
+      "height": 190,
+      "scale": 1,
+      "layout": {
+        "mode": "absolute",
+        "x": 48,
+        "y": 2196,
+        "zIndex": 9
+      },
+      "style": {
+        "width": 1104,
+        "height": 190,
+        "margin": "0",
+        "padding": "28px",
+        "background": "#07111F",
+        "color": "#E5F7FF",
+        "buttonColor": "#2563EB",
+        "borderColor": "#E2E8F0",
+        "borderRadius": 18
+      },
+      "props": {
+        "sourceSelector": "footer",
+        "sourceClass": "border-top",
+        "sourceHash": "b5483c989ba21565"
+      },
+      "action": {
+        "type": "none",
+        "target": "",
+        "open_mode": "same_tab",
+        "tracking_id": "template_blog_footer"
+      },
+      "translations": {
+        "en": {
+          "title": "Copyright © Your Website 2023",
+          "subtitle": "Blog",
+          "body": "Copyright © Your Website 2023",
+          "label": "Open"
+        }
+      },
+      "source": {
+        "type": "Footer",
+        "selector": "footer",
+        "className": "border-top",
+        "text": "Copyright © Your Website 2023",
+        "content_hash": "b5483c989ba21565"
+      }
+    }
+  ],
+  "translations": {
+    "en": {
+      "title": "Clean Blog - Start Bootstrap Theme",
+      "subtitle": "blog",
+      "description": "Clean Blog - Start Bootstrap Theme"
+    }
+  }
+}
