@@ -1,0 +1,4 @@
+name: Full Bulk Product
+price: 39.99
+images:
+- 1.jpg
