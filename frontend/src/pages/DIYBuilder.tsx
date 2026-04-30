@@ -543,9 +543,18 @@ export function DIYBuilder({ siteId, onToast, focusMode = false, onFocusModeChan
         <div className="mt-4 max-h-[60vh] space-y-3 overflow-auto">
           {availableTemplates.map((template: any) => (
             <div key={template.id || template.name} className="rounded-2xl border border-white/10 bg-white/5 p-3">
+              {template.preview_image_url && (
+                <img
+                  src={`${(import.meta.env.VITE_API_BASE || "http://127.0.0.1:8000/api/v1").replace(/\/api\/v1$/, "")}${template.preview_image_url}`}
+                  alt={template.name}
+                  className="mb-3 h-36 w-full rounded-xl border border-white/10 object-cover"
+                  data-testid={`template-preview-${template.id}`}
+                />
+              )}
               <p className="font-black text-textMain">{template.name}</p>
-              <p className="mt-1 text-xs text-textWeak">{template.framework} · {template.category} · {template.status}</p>
-              <p className="mt-2 text-xs text-textWeak">{template.notes}</p>
+              <p className="mt-1 text-xs text-textWeak">{template.category} · {template.template_type || "static_template"} · {template.status}</p>
+              <p className="mt-1 text-xs text-textWeak">{template.repo_name || template.repo_url}</p>
+              <p className="mt-1 text-xs text-textWeak">★ {template.stars ?? 0} · {template.license || "license"} · {template.framework}</p>
               <NeonButton className="mt-3" data-testid={`apply-template-${template.id}`} onClick={() => requestApplyTemplate(template)}>{t("builder.apply_template")}</NeonButton>
             </div>
           ))}
