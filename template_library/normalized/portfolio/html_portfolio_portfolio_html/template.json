@@ -1,0 +1,28 @@
+{
+  "id": "html_portfolio_portfolio_html",
+  "name": "portfolio-html",
+  "repo_url": "https://github.com/CommunityPro/portfolio-html",
+  "repo_name": "portfolio-html",
+  "stars": 653,
+  "license": "MIT",
+  "framework": "html",
+  "category": "portfolio",
+  "last_commit": "2023-08-23T07:04:41Z",
+  "source_path": "template_library/raw/html/portfolio-html/src/index.html",
+  "local_raw_path": "template_library/raw/html/portfolio-html",
+  "normalized_path": "template_library/normalized/portfolio/html_portfolio_portfolio_html",
+  "template_type": "static_template",
+  "status": "available",
+  "entry": "index.html",
+  "preview": "preview.html",
+  "checks": {
+    "header": true,
+    "hero": true,
+    "features": true,
+    "cta": true,
+    "footer": true,
+    "html_length": 9847,
+    "css_length": 8335,
+    "blocks": 12
+  }
+}
