@@ -1,0 +1,4 @@
+name: Real Bulk Product
+price: 44.44
+images:
+- 1.jpg
