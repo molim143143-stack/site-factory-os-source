@@ -1,0 +1,28 @@
+{
+  "id": "html_blog_startbootstrap_clean_blog",
+  "name": "startbootstrap-clean-blog",
+  "repo_url": "https://github.com/startbootstrap/startbootstrap-clean-blog",
+  "repo_name": "startbootstrap-clean-blog",
+  "stars": 1816,
+  "license": "MIT",
+  "framework": "html",
+  "category": "blog",
+  "last_commit": "2023-03-24T22:42:53Z",
+  "source_path": "template_library/raw/html/startbootstrap-clean-blog/dist/index.html",
+  "local_raw_path": "template_library/raw/html/startbootstrap-clean-blog",
+  "normalized_path": "template_library/normalized/blog/html_blog_startbootstrap_clean_blog",
+  "template_type": "static_template",
+  "status": "available",
+  "entry": "index.html",
+  "preview": "preview.html",
+  "checks": {
+    "header": true,
+    "hero": true,
+    "features": true,
+    "cta": true,
+    "footer": true,
+    "html_length": 8209,
+    "css_length": 233156,
+    "blocks": 8
+  }
+}
