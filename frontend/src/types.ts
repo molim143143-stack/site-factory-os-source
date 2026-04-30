@@ -1,0 +1,18 @@
+export type PageKey =
+  | "dashboard"
+  | "sites"
+  | "siteDetail"
+  | "cms"
+  | "bulk"
+  | "builder"
+  | "languages"
+  | "seo"
+  | "dns"
+  | "tasks"
+  | "errors"
+  | "deployments"
+  | "payments"
+  | "membership"
+  | "adminBilling"
+  | "users"
+  | "settings";
