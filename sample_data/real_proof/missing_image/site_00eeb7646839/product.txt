@@ -1,0 +1,4 @@
+name: Proof Bulk Product
+price: 29.99
+images:
+- missing.jpg
