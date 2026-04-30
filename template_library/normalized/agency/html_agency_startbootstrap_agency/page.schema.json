@@ -12,13 +12,13 @@
   },
   "blocks": [
     {
-      "id": "ctasection_1_c34c1aec363d9f49",
-      "type": "CTASection",
+      "id": "topnav_1_c34c1aec363d9f49",
+      "type": "TopNav",
       "enabled": true,
       "x": 48,
       "y": 32,
       "width": 1104,
-      "height": 280,
+      "height": 78,
       "scale": 1,
       "layout": {
         "mode": "absolute",
@@ -28,11 +28,11 @@
       },
       "style": {
         "width": 1104,
-        "height": 280,
+        "height": 78,
         "margin": "0",
         "padding": "28px",
-        "background": "#111827",
-        "color": "#E5F7FF",
+        "background": "#FFFFFF",
+        "color": "#0F172A",
         "buttonColor": "#F97316",
         "borderColor": "#E2E8F0",
         "borderRadius": 18
@@ -46,7 +46,7 @@
         "type": "external_url",
         "target": "#contact",
         "open_mode": "same_tab",
-        "tracking_id": "template_agency_ctasection"
+        "tracking_id": "template_agency_topnav"
       },
       "translations": {
         "en": {
@@ -57,7 +57,7 @@
         }
       },
       "source": {
-        "type": "CTASection",
+        "type": "TopNav",
         "selector": "nav",
         "className": "navbar navbar-expand-lg navbar-dark fixed-top",
         "text": "Menu Services Portfolio About Team Contact",
@@ -65,27 +65,27 @@
       }
     },
     {
-      "id": "imagetext_2_5c6285ccf3d0dc9c",
-      "type": "ImageText",
+      "id": "ctasection_2_5c6285ccf3d0dc9c",
+      "type": "CTASection",
       "enabled": true,
       "x": 48,
-      "y": 354,
+      "y": 152,
       "width": 1104,
-      "height": 320,
+      "height": 280,
       "scale": 1,
       "layout": {
         "mode": "absolute",
         "x": 48,
-        "y": 354,
+        "y": 152,
         "zIndex": 3
       },
       "style": {
         "width": 1104,
-        "height": 320,
+        "height": 280,
         "margin": "0",
         "padding": "28px",
-        "background": "#FFFFFF",
-        "color": "#0F172A",
+        "background": "#111827",
+        "color": "#E5F7FF",
         "buttonColor": "#F97316",
         "borderColor": "#E2E8F0",
         "borderRadius": 18
@@ -96,10 +96,10 @@
         "sourceHash": "5c6285ccf3d0dc9c"
       },
       "action": {
-        "type": "none",
-        "target": "",
+        "type": "external_url",
+        "target": "#contact",
         "open_mode": "same_tab",
-        "tracking_id": "template_agency_imagetext"
+        "tracking_id": "template_agency_ctasection"
       },
       "translations": {
         "en": {
@@ -122,14 +122,14 @@
       "type": "ImageText",
       "enabled": true,
       "x": 48,
-      "y": 716,
+      "y": 474,
       "width": 1104,
       "height": 320,
       "scale": 1,
       "layout": {
         "mode": "absolute",
         "x": 48,
-        "y": 716,
+        "y": 474,
         "zIndex": 4
       },
       "style": {
@@ -163,7 +163,7 @@
         }
       },
       "source": {
-        "type": "CTASection",
+        "type": "TopNav",
         "selector": "header",
         "className": "masthead",
         "text": "Welcome To Our Studio! It's Nice To Meet You Tell Me More",
@@ -175,14 +175,14 @@
       "type": "Hero",
       "enabled": true,
       "x": 48,
-      "y": 1078,
+      "y": 836,
       "width": 1104,
       "height": 430,
       "scale": 1,
       "layout": {
         "mode": "absolute",
         "x": 48,
-        "y": 1078,
+        "y": 836,
         "zIndex": 5
       },
       "style": {
@@ -228,14 +228,14 @@
       "type": "ImageText",
       "enabled": true,
       "x": 48,
-      "y": 1550,
+      "y": 1308,
       "width": 1104,
       "height": 320,
       "scale": 1,
       "layout": {
         "mode": "absolute",
         "x": 48,
-        "y": 1550,
+        "y": 1308,
         "zIndex": 6
       },
       "style": {
@@ -281,14 +281,14 @@
       "type": "ImageText",
       "enabled": true,
       "x": 48,
-      "y": 1912,
+      "y": 1670,
       "width": 1104,
       "height": 320,
       "scale": 1,
       "layout": {
         "mode": "absolute",
         "x": 48,
-        "y": 1912,
+        "y": 1670,
         "zIndex": 7
       },
       "style": {
@@ -334,14 +334,14 @@
       "type": "TrustBadge",
       "enabled": true,
       "x": 48,
-      "y": 2274,
+      "y": 2032,
       "width": 1104,
       "height": 210,
       "scale": 1,
       "layout": {
         "mode": "absolute",
         "x": 48,
-        "y": 2274,
+        "y": 2032,
         "zIndex": 8
       },
       "style": {
@@ -387,14 +387,14 @@
       "type": "TrustBadge",
       "enabled": true,
       "x": 48,
-      "y": 2526,
+      "y": 2284,
       "width": 1104,
       "height": 210,
       "scale": 1,
       "layout": {
         "mode": "absolute",
         "x": 48,
-        "y": 2526,
+        "y": 2284,
         "zIndex": 9
       },
       "style": {
@@ -440,14 +440,14 @@
       "type": "TrustBadge",
       "enabled": true,
       "x": 48,
-      "y": 2778,
+      "y": 2536,
       "width": 1104,
       "height": 210,
       "scale": 1,
       "layout": {
         "mode": "absolute",
         "x": 48,
-        "y": 2778,
+        "y": 2536,
         "zIndex": 10
       },
       "style": {
@@ -493,14 +493,14 @@
       "type": "TrustBadge",
       "enabled": true,
       "x": 48,
-      "y": 3030,
+      "y": 2788,
       "width": 1104,
       "height": 210,
       "scale": 1,
       "layout": {
         "mode": "absolute",
         "x": 48,
-        "y": 3030,
+        "y": 2788,
         "zIndex": 11
       },
       "style": {
@@ -546,14 +546,14 @@
       "type": "TrustBadge",
       "enabled": true,
       "x": 48,
-      "y": 3282,
+      "y": 3040,
       "width": 1104,
       "height": 210,
       "scale": 1,
       "layout": {
         "mode": "absolute",
         "x": 48,
-        "y": 3282,
+        "y": 3040,
         "zIndex": 12
       },
       "style": {
@@ -599,14 +599,14 @@
       "type": "TrustBadge",
       "enabled": true,
       "x": 48,
-      "y": 3534,
+      "y": 3292,
       "width": 1104,
       "height": 210,
       "scale": 1,
       "layout": {
         "mode": "absolute",
         "x": 48,
-        "y": 3534,
+        "y": 3292,
         "zIndex": 13
       },
       "style": {
@@ -652,14 +652,14 @@
       "type": "TrustBadge",
       "enabled": true,
       "x": 48,
-      "y": 3786,
+      "y": 3544,
       "width": 1104,
       "height": 210,
       "scale": 1,
       "layout": {
         "mode": "absolute",
         "x": 48,
-        "y": 3786,
+        "y": 3544,
         "zIndex": 14
       },
       "style": {
@@ -705,14 +705,14 @@
       "type": "TrustBadge",
       "enabled": true,
       "x": 48,
-      "y": 4038,
+      "y": 3796,
       "width": 1104,
       "height": 210,
       "scale": 1,
       "layout": {
         "mode": "absolute",
         "x": 48,
-        "y": 4038,
+        "y": 3796,
         "zIndex": 15
       },
       "style": {
@@ -758,14 +758,14 @@
       "type": "TrustBadge",
       "enabled": true,
       "x": 48,
-      "y": 4290,
+      "y": 4048,
       "width": 1104,
       "height": 210,
       "scale": 1,
       "layout": {
         "mode": "absolute",
         "x": 48,
-        "y": 4290,
+        "y": 4048,
         "zIndex": 16
       },
       "style": {
@@ -811,14 +811,14 @@
       "type": "TrustBadge",
       "enabled": true,
       "x": 48,
-      "y": 4542,
+      "y": 4300,
       "width": 1104,
       "height": 210,
       "scale": 1,
       "layout": {
         "mode": "absolute",
         "x": 48,
-        "y": 4542,
+        "y": 4300,
         "zIndex": 17
       },
       "style": {
@@ -864,14 +864,14 @@
       "type": "TrustBadge",
       "enabled": true,
       "x": 48,
-      "y": 4794,
+      "y": 4552,
       "width": 1104,
       "height": 210,
       "scale": 1,
       "layout": {
         "mode": "absolute",
         "x": 48,
-        "y": 4794,
+        "y": 4552,
         "zIndex": 18
       },
       "style": {
@@ -917,14 +917,14 @@
       "type": "TrustBadge",
       "enabled": true,
       "x": 48,
-      "y": 5046,
+      "y": 4804,
       "width": 1104,
       "height": 210,
       "scale": 1,
       "layout": {
         "mode": "absolute",
         "x": 48,
-        "y": 5046,
+        "y": 4804,
         "zIndex": 19
       },
       "style": {
@@ -970,14 +970,14 @@
       "type": "TrustBadge",
       "enabled": true,
       "x": 48,
-      "y": 5298,
+      "y": 5056,
       "width": 1104,
       "height": 210,
       "scale": 1,
       "layout": {
         "mode": "absolute",
         "x": 48,
-        "y": 5298,
+        "y": 5056,
         "zIndex": 20
       },
       "style": {
@@ -1023,14 +1023,14 @@
       "type": "TrustBadge",
       "enabled": true,
       "x": 48,
-      "y": 5550,
+      "y": 5308,
       "width": 1104,
       "height": 210,
       "scale": 1,
       "layout": {
         "mode": "absolute",
         "x": 48,
-        "y": 5550,
+        "y": 5308,
         "zIndex": 21
       },
       "style": {
@@ -1069,6 +1069,801 @@
         "className": "col-lg-4 col-sm-6 mb-4 mb-sm-0",
         "text": "",
         "content_hash": "ec004f8a67f3e7b8"
+      }
+    },
+    {
+      "id": "trustbadge_21_b5b80ec07c93685e",
+      "type": "TrustBadge",
+      "enabled": true,
+      "x": 48,
+      "y": 5560,
+      "width": 1104,
+      "height": 210,
+      "scale": 1,
+      "layout": {
+        "mode": "absolute",
+        "x": 48,
+        "y": 5560,
+        "zIndex": 22
+      },
+      "style": {
+        "width": 1104,
+        "height": 210,
+        "margin": "0",
+        "padding": "28px",
+        "background": "#FFFFFF",
+        "color": "#0F172A",
+        "buttonColor": "#F97316",
+        "borderColor": "#E2E8F0",
+        "borderRadius": 18
+      },
+      "props": {
+        "sourceSelector": "div",
+        "sourceClass": "portfolio-caption",
+        "sourceHash": "b5b80ec07c93685e"
+      },
+      "action": {
+        "type": "none",
+        "target": "",
+        "open_mode": "same_tab",
+        "tracking_id": "template_agency_trustbadge"
+      },
+      "translations": {
+        "en": {
+          "title": "Southwest",
+          "subtitle": "Agency",
+          "body": "Southwest",
+          "label": "Open"
+        }
+      },
+      "source": {
+        "type": "TrustBadge",
+        "selector": "div",
+        "className": "portfolio-caption",
+        "text": "Southwest",
+        "content_hash": "b5b80ec07c93685e"
+      }
+    },
+    {
+      "id": "trustbadge_22_f62b6b3de198a955",
+      "type": "TrustBadge",
+      "enabled": true,
+      "x": 48,
+      "y": 5812,
+      "width": 1104,
+      "height": 210,
+      "scale": 1,
+      "layout": {
+        "mode": "absolute",
+        "x": 48,
+        "y": 5812,
+        "zIndex": 23
+      },
+      "style": {
+        "width": 1104,
+        "height": 210,
+        "margin": "0",
+        "padding": "28px",
+        "background": "#FFFFFF",
+        "color": "#0F172A",
+        "buttonColor": "#F97316",
+        "borderColor": "#E2E8F0",
+        "borderRadius": 18
+      },
+      "props": {
+        "sourceSelector": "div",
+        "sourceClass": "portfolio-caption-subheading text-muted",
+        "sourceHash": "f62b6b3de198a955"
+      },
+      "action": {
+        "type": "none",
+        "target": "",
+        "open_mode": "same_tab",
+        "tracking_id": "template_agency_trustbadge"
+      },
+      "translations": {
+        "en": {
+          "title": "Website Design",
+          "subtitle": "Agency",
+          "body": "Website Design",
+          "label": "Open"
+        }
+      },
+      "source": {
+        "type": "TrustBadge",
+        "selector": "div",
+        "className": "portfolio-caption-subheading text-muted",
+        "text": "Website Design",
+        "content_hash": "f62b6b3de198a955"
+      }
+    },
+    {
+      "id": "trustbadge_23_ad786c2efe255958",
+      "type": "TrustBadge",
+      "enabled": true,
+      "x": 48,
+      "y": 6064,
+      "width": 1104,
+      "height": 210,
+      "scale": 1,
+      "layout": {
+        "mode": "absolute",
+        "x": 48,
+        "y": 6064,
+        "zIndex": 24
+      },
+      "style": {
+        "width": 1104,
+        "height": 210,
+        "margin": "0",
+        "padding": "28px",
+        "background": "#FFFFFF",
+        "color": "#0F172A",
+        "buttonColor": "#F97316",
+        "borderColor": "#E2E8F0",
+        "borderRadius": 18
+      },
+      "props": {
+        "sourceSelector": "div",
+        "sourceClass": "col-lg-4 col-sm-6",
+        "sourceHash": "ad786c2efe255958"
+      },
+      "action": {
+        "type": "none",
+        "target": "",
+        "open_mode": "same_tab",
+        "tracking_id": "template_agency_trustbadge"
+      },
+      "translations": {
+        "en": {
+          "title": "TrustBadge",
+          "subtitle": "Agency",
+          "body": "",
+          "label": "Open"
+        }
+      },
+      "source": {
+        "type": "TrustBadge",
+        "selector": "div",
+        "className": "col-lg-4 col-sm-6",
+        "text": "",
+        "content_hash": "ad786c2efe255958"
+      }
+    },
+    {
+      "id": "trustbadge_24_14aac63996b5053a",
+      "type": "TrustBadge",
+      "enabled": true,
+      "x": 48,
+      "y": 6316,
+      "width": 1104,
+      "height": 210,
+      "scale": 1,
+      "layout": {
+        "mode": "absolute",
+        "x": 48,
+        "y": 6316,
+        "zIndex": 25
+      },
+      "style": {
+        "width": 1104,
+        "height": 210,
+        "margin": "0",
+        "padding": "28px",
+        "background": "#FFFFFF",
+        "color": "#0F172A",
+        "buttonColor": "#F97316",
+        "borderColor": "#E2E8F0",
+        "borderRadius": 18
+      },
+      "props": {
+        "sourceSelector": "div",
+        "sourceClass": "portfolio-caption",
+        "sourceHash": "14aac63996b5053a"
+      },
+      "action": {
+        "type": "none",
+        "target": "",
+        "open_mode": "same_tab",
+        "tracking_id": "template_agency_trustbadge"
+      },
+      "translations": {
+        "en": {
+          "title": "Window",
+          "subtitle": "Agency",
+          "body": "Window",
+          "label": "Open"
+        }
+      },
+      "source": {
+        "type": "TrustBadge",
+        "selector": "div",
+        "className": "portfolio-caption",
+        "text": "Window",
+        "content_hash": "14aac63996b5053a"
+      }
+    },
+    {
+      "id": "trustbadge_25_9b05251ba3867d51",
+      "type": "TrustBadge",
+      "enabled": true,
+      "x": 48,
+      "y": 6568,
+      "width": 1104,
+      "height": 210,
+      "scale": 1,
+      "layout": {
+        "mode": "absolute",
+        "x": 48,
+        "y": 6568,
+        "zIndex": 26
+      },
+      "style": {
+        "width": 1104,
+        "height": 210,
+        "margin": "0",
+        "padding": "28px",
+        "background": "#FFFFFF",
+        "color": "#0F172A",
+        "buttonColor": "#F97316",
+        "borderColor": "#E2E8F0",
+        "borderRadius": 18
+      },
+      "props": {
+        "sourceSelector": "div",
+        "sourceClass": "portfolio-caption-subheading text-muted",
+        "sourceHash": "9b05251ba3867d51"
+      },
+      "action": {
+        "type": "none",
+        "target": "",
+        "open_mode": "same_tab",
+        "tracking_id": "template_agency_trustbadge"
+      },
+      "translations": {
+        "en": {
+          "title": "Photography",
+          "subtitle": "Agency",
+          "body": "Photography",
+          "label": "Open"
+        }
+      },
+      "source": {
+        "type": "TrustBadge",
+        "selector": "div",
+        "className": "portfolio-caption-subheading text-muted",
+        "text": "Photography",
+        "content_hash": "9b05251ba3867d51"
+      }
+    },
+    {
+      "id": "trustbadge_26_500a6a3fd6b27532",
+      "type": "TrustBadge",
+      "enabled": true,
+      "x": 48,
+      "y": 6820,
+      "width": 1104,
+      "height": 210,
+      "scale": 1,
+      "layout": {
+        "mode": "absolute",
+        "x": 48,
+        "y": 6820,
+        "zIndex": 27
+      },
+      "style": {
+        "width": 1104,
+        "height": 210,
+        "margin": "0",
+        "padding": "28px",
+        "background": "#FFFFFF",
+        "color": "#0F172A",
+        "buttonColor": "#F97316",
+        "borderColor": "#E2E8F0",
+        "borderRadius": 18
+      },
+      "props": {
+        "sourceSelector": "section",
+        "sourceClass": "page-section",
+        "sourceHash": "500a6a3fd6b27532"
+      },
+      "action": {
+        "type": "none",
+        "target": "",
+        "open_mode": "same_tab",
+        "tracking_id": "template_agency_trustbadge"
+      },
+      "translations": {
+        "en": {
+          "title": "About Lorem ipsum dolor sit amet consectetur.",
+          "subtitle": "Agency",
+          "body": "2009-2011 Our Humble Beginnings Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt",
+          "label": "Open"
+        }
+      },
+      "source": {
+        "type": "TrustBadge",
+        "selector": "section",
+        "className": "page-section",
+        "text": "About Lorem ipsum dolor sit amet consectetur. 2009-2011 Our Humble Beginnings Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt",
+        "content_hash": "500a6a3fd6b27532"
+      }
+    },
+    {
+      "id": "imagetext_27_ab16e739716a28f3",
+      "type": "ImageText",
+      "enabled": true,
+      "x": 48,
+      "y": 7072,
+      "width": 1104,
+      "height": 320,
+      "scale": 1,
+      "layout": {
+        "mode": "absolute",
+        "x": 48,
+        "y": 7072,
+        "zIndex": 28
+      },
+      "style": {
+        "width": 1104,
+        "height": 320,
+        "margin": "0",
+        "padding": "28px",
+        "background": "#FFFFFF",
+        "color": "#0F172A",
+        "buttonColor": "#F97316",
+        "borderColor": "#E2E8F0",
+        "borderRadius": 18
+      },
+      "props": {
+        "sourceSelector": "section",
+        "sourceClass": "page-section bg-light",
+        "sourceHash": "ab16e739716a28f3"
+      },
+      "action": {
+        "type": "none",
+        "target": "",
+        "open_mode": "same_tab",
+        "tracking_id": "template_agency_imagetext"
+      },
+      "translations": {
+        "en": {
+          "title": "Our Amazing Team Lorem ipsum dolor sit amet consectetur.",
+          "subtitle": "Agency",
+          "body": "Parveen Anand Lead Designer Diana Petersen Lead Marketer Larry Parker Lead Develope",
+          "label": "Open"
+        }
+      },
+      "source": {
+        "type": "CTASection",
+        "selector": "section",
+        "className": "page-section bg-light",
+        "text": "Our Amazing Team Lorem ipsum dolor sit amet consectetur. Parveen Anand Lead Designer Diana Petersen Lead Marketer Larry Parker Lead Develope",
+        "content_hash": "ab16e739716a28f3"
+      }
+    },
+    {
+      "id": "imagetext_28_716dbeb463477ae4",
+      "type": "ImageText",
+      "enabled": true,
+      "x": 48,
+      "y": 7434,
+      "width": 1104,
+      "height": 320,
+      "scale": 1,
+      "layout": {
+        "mode": "absolute",
+        "x": 48,
+        "y": 7434,
+        "zIndex": 29
+      },
+      "style": {
+        "width": 1104,
+        "height": 320,
+        "margin": "0",
+        "padding": "28px",
+        "background": "#FFFFFF",
+        "color": "#0F172A",
+        "buttonColor": "#F97316",
+        "borderColor": "#E2E8F0",
+        "borderRadius": 18
+      },
+      "props": {
+        "sourceSelector": "section",
+        "sourceClass": "page-section",
+        "sourceHash": "716dbeb463477ae4"
+      },
+      "action": {
+        "type": "none",
+        "target": "",
+        "open_mode": "same_tab",
+        "tracking_id": "template_agency_imagetext"
+      },
+      "translations": {
+        "en": {
+          "title": "Contact Us Lorem ipsum dolor sit amet consectetur.",
+          "subtitle": "Agency",
+          "body": "A name is required. An email is required. Email is not valid.",
+          "label": "Contact"
+        }
+      },
+      "source": {
+        "type": "CTASection",
+        "selector": "section",
+        "className": "page-section",
+        "text": "Contact Us Lorem ipsum dolor sit amet consectetur. A name is required. An email is required. Email is not valid. A phone number is required.",
+        "content_hash": "716dbeb463477ae4"
+      }
+    },
+    {
+      "id": "footer_29_a9abecce751399bf",
+      "type": "Footer",
+      "enabled": true,
+      "x": 48,
+      "y": 7796,
+      "width": 1104,
+      "height": 190,
+      "scale": 1,
+      "layout": {
+        "mode": "absolute",
+        "x": 48,
+        "y": 7796,
+        "zIndex": 30
+      },
+      "style": {
+        "width": 1104,
+        "height": 190,
+        "margin": "0",
+        "padding": "28px",
+        "background": "#07111F",
+        "color": "#E5F7FF",
+        "buttonColor": "#F97316",
+        "borderColor": "#E2E8F0",
+        "borderRadius": 18
+      },
+      "props": {
+        "sourceSelector": "footer",
+        "sourceClass": "footer py-4",
+        "sourceHash": "a9abecce751399bf"
+      },
+      "action": {
+        "type": "none",
+        "target": "",
+        "open_mode": "same_tab",
+        "tracking_id": "template_agency_footer"
+      },
+      "translations": {
+        "en": {
+          "title": "Copyright © Your Website 2023 Privacy Policy Terms of Use",
+          "subtitle": "Agency",
+          "body": "Copyright © Your Website 2023 Privacy Policy Terms of Use",
+          "label": "Open"
+        }
+      },
+      "source": {
+        "type": "Footer",
+        "selector": "footer",
+        "className": "footer py-4",
+        "text": "Copyright © Your Website 2023 Privacy Policy Terms of Use",
+        "content_hash": "a9abecce751399bf"
+      }
+    },
+    {
+      "id": "trustbadge_30_4288c0fd327523b4",
+      "type": "TrustBadge",
+      "enabled": true,
+      "x": 48,
+      "y": 8028,
+      "width": 1104,
+      "height": 210,
+      "scale": 1,
+      "layout": {
+        "mode": "absolute",
+        "x": 48,
+        "y": 8028,
+        "zIndex": 31
+      },
+      "style": {
+        "width": 1104,
+        "height": 210,
+        "margin": "0",
+        "padding": "28px",
+        "background": "#FFFFFF",
+        "color": "#0F172A",
+        "buttonColor": "#F97316",
+        "borderColor": "#E2E8F0",
+        "borderRadius": 18
+      },
+      "props": {
+        "sourceSelector": "div",
+        "sourceClass": "portfolio-modal modal fade",
+        "sourceHash": "4288c0fd327523b4"
+      },
+      "action": {
+        "type": "none",
+        "target": "",
+        "open_mode": "same_tab",
+        "tracking_id": "template_agency_trustbadge"
+      },
+      "translations": {
+        "en": {
+          "title": "TrustBadge",
+          "subtitle": "Agency",
+          "body": "",
+          "label": "Open"
+        }
+      },
+      "source": {
+        "type": "TrustBadge",
+        "selector": "div",
+        "className": "portfolio-modal modal fade",
+        "text": "",
+        "content_hash": "4288c0fd327523b4"
+      }
+    },
+    {
+      "id": "trustbadge_31_9e09a55a856e2d0b",
+      "type": "TrustBadge",
+      "enabled": true,
+      "x": 48,
+      "y": 8280,
+      "width": 1104,
+      "height": 210,
+      "scale": 1,
+      "layout": {
+        "mode": "absolute",
+        "x": 48,
+        "y": 8280,
+        "zIndex": 32
+      },
+      "style": {
+        "width": 1104,
+        "height": 210,
+        "margin": "0",
+        "padding": "28px",
+        "background": "#FFFFFF",
+        "color": "#0F172A",
+        "buttonColor": "#F97316",
+        "borderColor": "#E2E8F0",
+        "borderRadius": 18
+      },
+      "props": {
+        "sourceSelector": "div",
+        "sourceClass": "portfolio-modal modal fade",
+        "sourceHash": "9e09a55a856e2d0b"
+      },
+      "action": {
+        "type": "none",
+        "target": "",
+        "open_mode": "same_tab",
+        "tracking_id": "template_agency_trustbadge"
+      },
+      "translations": {
+        "en": {
+          "title": "TrustBadge",
+          "subtitle": "Agency",
+          "body": "",
+          "label": "Open"
+        }
+      },
+      "source": {
+        "type": "TrustBadge",
+        "selector": "div",
+        "className": "portfolio-modal modal fade",
+        "text": "",
+        "content_hash": "9e09a55a856e2d0b"
+      }
+    },
+    {
+      "id": "trustbadge_32_0e2dd18c8adfc18c",
+      "type": "TrustBadge",
+      "enabled": true,
+      "x": 48,
+      "y": 8532,
+      "width": 1104,
+      "height": 210,
+      "scale": 1,
+      "layout": {
+        "mode": "absolute",
+        "x": 48,
+        "y": 8532,
+        "zIndex": 33
+      },
+      "style": {
+        "width": 1104,
+        "height": 210,
+        "margin": "0",
+        "padding": "28px",
+        "background": "#FFFFFF",
+        "color": "#0F172A",
+        "buttonColor": "#F97316",
+        "borderColor": "#E2E8F0",
+        "borderRadius": 18
+      },
+      "props": {
+        "sourceSelector": "div",
+        "sourceClass": "portfolio-modal modal fade",
+        "sourceHash": "0e2dd18c8adfc18c"
+      },
+      "action": {
+        "type": "none",
+        "target": "",
+        "open_mode": "same_tab",
+        "tracking_id": "template_agency_trustbadge"
+      },
+      "translations": {
+        "en": {
+          "title": "TrustBadge",
+          "subtitle": "Agency",
+          "body": "",
+          "label": "Open"
+        }
+      },
+      "source": {
+        "type": "TrustBadge",
+        "selector": "div",
+        "className": "portfolio-modal modal fade",
+        "text": "",
+        "content_hash": "0e2dd18c8adfc18c"
+      }
+    },
+    {
+      "id": "trustbadge_33_89ed50fcbcdd238d",
+      "type": "TrustBadge",
+      "enabled": true,
+      "x": 48,
+      "y": 8784,
+      "width": 1104,
+      "height": 210,
+      "scale": 1,
+      "layout": {
+        "mode": "absolute",
+        "x": 48,
+        "y": 8784,
+        "zIndex": 34
+      },
+      "style": {
+        "width": 1104,
+        "height": 210,
+        "margin": "0",
+        "padding": "28px",
+        "background": "#FFFFFF",
+        "color": "#0F172A",
+        "buttonColor": "#F97316",
+        "borderColor": "#E2E8F0",
+        "borderRadius": 18
+      },
+      "props": {
+        "sourceSelector": "div",
+        "sourceClass": "portfolio-modal modal fade",
+        "sourceHash": "89ed50fcbcdd238d"
+      },
+      "action": {
+        "type": "none",
+        "target": "",
+        "open_mode": "same_tab",
+        "tracking_id": "template_agency_trustbadge"
+      },
+      "translations": {
+        "en": {
+          "title": "TrustBadge",
+          "subtitle": "Agency",
+          "body": "",
+          "label": "Open"
+        }
+      },
+      "source": {
+        "type": "TrustBadge",
+        "selector": "div",
+        "className": "portfolio-modal modal fade",
+        "text": "",
+        "content_hash": "89ed50fcbcdd238d"
+      }
+    },
+    {
+      "id": "trustbadge_34_2636909163d968bf",
+      "type": "TrustBadge",
+      "enabled": true,
+      "x": 48,
+      "y": 9036,
+      "width": 1104,
+      "height": 210,
+      "scale": 1,
+      "layout": {
+        "mode": "absolute",
+        "x": 48,
+        "y": 9036,
+        "zIndex": 35
+      },
+      "style": {
+        "width": 1104,
+        "height": 210,
+        "margin": "0",
+        "padding": "28px",
+        "background": "#FFFFFF",
+        "color": "#0F172A",
+        "buttonColor": "#F97316",
+        "borderColor": "#E2E8F0",
+        "borderRadius": 18
+      },
+      "props": {
+        "sourceSelector": "div",
+        "sourceClass": "portfolio-modal modal fade",
+        "sourceHash": "2636909163d968bf"
+      },
+      "action": {
+        "type": "none",
+        "target": "",
+        "open_mode": "same_tab",
+        "tracking_id": "template_agency_trustbadge"
+      },
+      "translations": {
+        "en": {
+          "title": "TrustBadge",
+          "subtitle": "Agency",
+          "body": "",
+          "label": "Open"
+        }
+      },
+      "source": {
+        "type": "TrustBadge",
+        "selector": "div",
+        "className": "portfolio-modal modal fade",
+        "text": "",
+        "content_hash": "2636909163d968bf"
+      }
+    },
+    {
+      "id": "trustbadge_35_68b8a6485946e89f",
+      "type": "TrustBadge",
+      "enabled": true,
+      "x": 48,
+      "y": 9288,
+      "width": 1104,
+      "height": 210,
+      "scale": 1,
+      "layout": {
+        "mode": "absolute",
+        "x": 48,
+        "y": 9288,
+        "zIndex": 36
+      },
+      "style": {
+        "width": 1104,
+        "height": 210,
+        "margin": "0",
+        "padding": "28px",
+        "background": "#FFFFFF",
+        "color": "#0F172A",
+        "buttonColor": "#F97316",
+        "borderColor": "#E2E8F0",
+        "borderRadius": 18
+      },
+      "props": {
+        "sourceSelector": "div",
+        "sourceClass": "portfolio-modal modal fade",
+        "sourceHash": "68b8a6485946e89f"
+      },
+      "action": {
+        "type": "none",
+        "target": "",
+        "open_mode": "same_tab",
+        "tracking_id": "template_agency_trustbadge"
+      },
+      "translations": {
+        "en": {
+          "title": "TrustBadge",
+          "subtitle": "Agency",
+          "body": "",
+          "label": "Open"
+        }
+      },
+      "source": {
+        "type": "TrustBadge",
+        "selector": "div",
+        "className": "portfolio-modal modal fade",
+        "text": "",
+        "content_hash": "68b8a6485946e89f"
       }
     }
   ],
