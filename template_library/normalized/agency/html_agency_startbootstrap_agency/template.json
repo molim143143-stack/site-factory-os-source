@@ -15,6 +15,7 @@
   "status": "available",
   "entry": "index.html",
   "preview": "preview.html",
+  "preview_image": "preview.png",
   "checks": {
     "header": true,
     "hero": true,
@@ -23,6 +24,6 @@
     "footer": true,
     "html_length": 39672,
     "css_length": 250498,
-    "blocks": 20
+    "blocks": 35
   }
 }
