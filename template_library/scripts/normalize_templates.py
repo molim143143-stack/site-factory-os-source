@@ -109,7 +109,9 @@ def extract_blocks(markup: str) -> list[dict]:
                 "section": "ImageText",
             }.get(tag, "ImageText")
             lower = raw.lower()
-            if "footer" in lower or "copyright" in lower:
+            if tag in {"header", "nav"}:
+                block_type = "TopNav"
+            elif tag == "footer" or "footer" in lower or "copyright" in lower:
                 block_type = "Footer"
             elif any(token in lower for token in ["cta", "call-to-action", "signup", "contact", "btn ", "btn-", "add to cart", "view options", "view details", "continue reading", "download now", "learn more"]):
                 block_type = "CTASection"
@@ -126,7 +128,7 @@ def extract_blocks(markup: str) -> list[dict]:
                     "content_hash": raw_hash,
                 }
             )
-            if len(blocks) >= 20:
+            if len(blocks) >= 40:
                 return blocks
     return blocks
 
@@ -314,6 +316,7 @@ def normalize_meta(meta_path: Path) -> dict | None:
         "status": "available",
         "entry": "index.html",
         "preview": "preview.html",
+        "preview_image": "preview.png",
         "checks": {**checks, "html_length": len(source_html), "css_length": css_len, "blocks": len(blocks)},
     }
     (target / "template.json").write_text(json.dumps(template_json, ensure_ascii=False, indent=2), encoding="utf-8")
