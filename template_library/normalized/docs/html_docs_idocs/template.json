@@ -1,0 +1,28 @@
+{
+  "id": "html_docs_idocs",
+  "name": "iDocs",
+  "repo_url": "https://github.com/harnishdesign/iDocs",
+  "repo_name": "iDocs",
+  "stars": 208,
+  "license": "MIT",
+  "framework": "html",
+  "category": "docs",
+  "last_commit": "2024-02-26T09:12:47Z",
+  "source_path": "template_library/raw/html/iDocs/index.html",
+  "local_raw_path": "template_library/raw/html/iDocs",
+  "normalized_path": "template_library/normalized/docs/html_docs_idocs",
+  "template_type": "static_template",
+  "status": "available",
+  "entry": "index.html",
+  "preview": "preview.html",
+  "checks": {
+    "header": true,
+    "hero": true,
+    "features": true,
+    "cta": true,
+    "footer": true,
+    "html_length": 75137,
+    "css_length": 1052698,
+    "blocks": 20
+  }
+}
