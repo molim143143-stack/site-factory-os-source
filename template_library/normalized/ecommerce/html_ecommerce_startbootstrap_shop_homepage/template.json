@@ -1,0 +1,28 @@
+{
+  "id": "html_ecommerce_startbootstrap_shop_homepage",
+  "name": "startbootstrap-shop-homepage",
+  "repo_url": "https://github.com/startbootstrap/startbootstrap-shop-homepage",
+  "repo_name": "startbootstrap-shop-homepage",
+  "stars": 495,
+  "license": "MIT",
+  "framework": "html",
+  "category": "ecommerce",
+  "last_commit": "2023-03-25T22:12:00Z",
+  "source_path": "template_library/raw/html/startbootstrap-shop-homepage/dist/index.html",
+  "local_raw_path": "template_library/raw/html/startbootstrap-shop-homepage",
+  "normalized_path": "template_library/normalized/ecommerce/html_ecommerce_startbootstrap_shop_homepage",
+  "template_type": "static_template",
+  "status": "available",
+  "entry": "index.html",
+  "preview": "preview.html",
+  "checks": {
+    "header": true,
+    "hero": true,
+    "features": true,
+    "cta": true,
+    "footer": true,
+    "html_length": 16090,
+    "css_length": 236789,
+    "blocks": 13
+  }
+}
