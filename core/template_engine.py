@@ -210,7 +210,7 @@ body{position:relative;min-height:2200px;background:#f8fafc}
         )
 
     def _document(self, site: Site, language: str, seo_meta: str, body: str) -> str:
-        return f'<!doctype html><html lang="{html.escape(language)}"><head>{seo_meta}<link rel="stylesheet" href="/style.css"></head><body>{body}</body></html>'
+        return f'<!doctype html><html lang="{html.escape(language)}"><head>{seo_meta}<link rel="stylesheet" href="style.css"></head><body>{body}</body></html>'
 
     def _layout(self, page: Page | None) -> dict:
         if not page:
