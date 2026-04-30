@@ -1,0 +1,764 @@
+{
+  "templateId": "html_saas_startbootstrap_creative",
+  "type": "page_template",
+  "template_type": "static_template",
+  "mode": "static_template",
+  "schemaVersion": 3,
+  "static_template": {
+    "normalized_path": "template_library/normalized/saas/html_saas_startbootstrap_creative",
+    "entry": "index.html",
+    "preview": "preview.html",
+    "asset_root": "assets/site"
+  },
+  "blocks": [
+    {
+      "id": "ctasection_1_cdb64a16199fb9d2",
+      "type": "CTASection",
+      "enabled": true,
+      "x": 48,
+      "y": 32,
+      "width": 1104,
+      "height": 280,
+      "scale": 1,
+      "layout": {
+        "mode": "absolute",
+        "x": 48,
+        "y": 32,
+        "zIndex": 2
+      },
+      "style": {
+        "width": 1104,
+        "height": 280,
+        "margin": "0",
+        "padding": "28px",
+        "background": "#111827",
+        "color": "#E5F7FF",
+        "buttonColor": "#F97316",
+        "borderColor": "#E2E8F0",
+        "borderRadius": 18
+      },
+      "props": {
+        "sourceSelector": "nav",
+        "sourceClass": "navbar navbar-expand-lg navbar-light fixed-top py-3",
+        "sourceHash": "cdb64a16199fb9d2"
+      },
+      "action": {
+        "type": "external_url",
+        "target": "#contact",
+        "open_mode": "same_tab",
+        "tracking_id": "template_saas_ctasection"
+      },
+      "translations": {
+        "en": {
+          "title": "Start Bootstrap About Services Portfolio Contact",
+          "subtitle": "Saas",
+          "body": "Start Bootstrap About Services Portfolio Contact",
+          "label": "Contact"
+        }
+      },
+      "source": {
+        "type": "CTASection",
+        "selector": "nav",
+        "className": "navbar navbar-expand-lg navbar-light fixed-top py-3",
+        "text": "Start Bootstrap About Services Portfolio Contact",
+        "content_hash": "cdb64a16199fb9d2"
+      }
+    },
+    {
+      "id": "imagetext_2_2ad137bcf104bb52",
+      "type": "ImageText",
+      "enabled": true,
+      "x": 48,
+      "y": 354,
+      "width": 1104,
+      "height": 320,
+      "scale": 1,
+      "layout": {
+        "mode": "absolute",
+        "x": 48,
+        "y": 354,
+        "zIndex": 3
+      },
+      "style": {
+        "width": 1104,
+        "height": 320,
+        "margin": "0",
+        "padding": "28px",
+        "background": "#FFFFFF",
+        "color": "#0F172A",
+        "buttonColor": "#F97316",
+        "borderColor": "#E2E8F0",
+        "borderRadius": 18
+      },
+      "props": {
+        "sourceSelector": "div",
+        "sourceClass": "container px-4 px-lg-5",
+        "sourceHash": "2ad137bcf104bb52"
+      },
+      "action": {
+        "type": "none",
+        "target": "",
+        "open_mode": "same_tab",
+        "tracking_id": "template_saas_imagetext"
+      },
+      "translations": {
+        "en": {
+          "title": "Start Bootstrap About Services Portfolio Contact",
+          "subtitle": "Saas",
+          "body": "Start Bootstrap About Services Portfolio Contact",
+          "label": "Contact"
+        }
+      },
+      "source": {
+        "type": "CTASection",
+        "selector": "div",
+        "className": "container px-4 px-lg-5",
+        "text": "Start Bootstrap About Services Portfolio Contact",
+        "content_hash": "2ad137bcf104bb52"
+      }
+    },
+    {
+      "id": "imagetext_3_3e5aacd2696cbdbc",
+      "type": "ImageText",
+      "enabled": true,
+      "x": 48,
+      "y": 716,
+      "width": 1104,
+      "height": 320,
+      "scale": 1,
+      "layout": {
+        "mode": "absolute",
+        "x": 48,
+        "y": 716,
+        "zIndex": 4
+      },
+      "style": {
+        "width": 1104,
+        "height": 320,
+        "margin": "0",
+        "padding": "28px",
+        "background": "#FFFFFF",
+        "color": "#0F172A",
+        "buttonColor": "#F97316",
+        "borderColor": "#E2E8F0",
+        "borderRadius": 18
+      },
+      "props": {
+        "sourceSelector": "header",
+        "sourceClass": "masthead",
+        "sourceHash": "3e5aacd2696cbdbc"
+      },
+      "action": {
+        "type": "none",
+        "target": "",
+        "open_mode": "same_tab",
+        "tracking_id": "template_saas_imagetext"
+      },
+      "translations": {
+        "en": {
+          "title": "Your Favorite Place for Free Bootstrap Themes Start Bootstrap can help you bui",
+          "subtitle": "Saas",
+          "body": "Just downloa",
+          "label": "Open"
+        }
+      },
+      "source": {
+        "type": "CTASection",
+        "selector": "header",
+        "className": "masthead",
+        "text": "Your Favorite Place for Free Bootstrap Themes Start Bootstrap can help you build better websites using the Bootstrap framework! Just downloa",
+        "content_hash": "3e5aacd2696cbdbc"
+      }
+    },
+    {
+      "id": "imagetext_4_07ac465b34b91a56",
+      "type": "ImageText",
+      "enabled": true,
+      "x": 48,
+      "y": 1078,
+      "width": 1104,
+      "height": 320,
+      "scale": 1,
+      "layout": {
+        "mode": "absolute",
+        "x": 48,
+        "y": 1078,
+        "zIndex": 5
+      },
+      "style": {
+        "width": 1104,
+        "height": 320,
+        "margin": "0",
+        "padding": "28px",
+        "background": "#FFFFFF",
+        "color": "#0F172A",
+        "buttonColor": "#F97316",
+        "borderColor": "#E2E8F0",
+        "borderRadius": 18
+      },
+      "props": {
+        "sourceSelector": "section",
+        "sourceClass": "page-section bg-primary",
+        "sourceHash": "07ac465b34b91a56"
+      },
+      "action": {
+        "type": "none",
+        "target": "",
+        "open_mode": "same_tab",
+        "tracking_id": "template_saas_imagetext"
+      },
+      "translations": {
+        "en": {
+          "title": "We've got what you need!",
+          "subtitle": "Saas",
+          "body": "Start Bootstrap has everything you need to get your new website up and running in no time! Choose one of our open s",
+          "label": "Open"
+        }
+      },
+      "source": {
+        "type": "CTASection",
+        "selector": "section",
+        "className": "page-section bg-primary",
+        "text": "We've got what you need! Start Bootstrap has everything you need to get your new website up and running in no time! Choose one of our open s",
+        "content_hash": "07ac465b34b91a56"
+      }
+    },
+    {
+      "id": "trustbadge_5_5905c73ad5eef0c2",
+      "type": "TrustBadge",
+      "enabled": true,
+      "x": 48,
+      "y": 1440,
+      "width": 1104,
+      "height": 210,
+      "scale": 1,
+      "layout": {
+        "mode": "absolute",
+        "x": 48,
+        "y": 1440,
+        "zIndex": 6
+      },
+      "style": {
+        "width": 1104,
+        "height": 210,
+        "margin": "0",
+        "padding": "28px",
+        "background": "#FFFFFF",
+        "color": "#0F172A",
+        "buttonColor": "#F97316",
+        "borderColor": "#E2E8F0",
+        "borderRadius": 18
+      },
+      "props": {
+        "sourceSelector": "section",
+        "sourceClass": "page-section",
+        "sourceHash": "5905c73ad5eef0c2"
+      },
+      "action": {
+        "type": "none",
+        "target": "",
+        "open_mode": "same_tab",
+        "tracking_id": "template_saas_trustbadge"
+      },
+      "translations": {
+        "en": {
+          "title": "At Your Service Sturdy Themes Our themes are updated regularly to keep them bu",
+          "subtitle": "Saas",
+          "body": "Up to Date All dependencies are kept current to keep t",
+          "label": "Open"
+        }
+      },
+      "source": {
+        "type": "TrustBadge",
+        "selector": "section",
+        "className": "page-section",
+        "text": "At Your Service Sturdy Themes Our themes are updated regularly to keep them bug free! Up to Date All dependencies are kept current to keep t",
+        "content_hash": "5905c73ad5eef0c2"
+      }
+    },
+    {
+      "id": "trustbadge_6_7099396170fd893c",
+      "type": "TrustBadge",
+      "enabled": true,
+      "x": 48,
+      "y": 1692,
+      "width": 1104,
+      "height": 210,
+      "scale": 1,
+      "layout": {
+        "mode": "absolute",
+        "x": 48,
+        "y": 1692,
+        "zIndex": 7
+      },
+      "style": {
+        "width": 1104,
+        "height": 210,
+        "margin": "0",
+        "padding": "28px",
+        "background": "#FFFFFF",
+        "color": "#0F172A",
+        "buttonColor": "#F97316",
+        "borderColor": "#E2E8F0",
+        "borderRadius": 18
+      },
+      "props": {
+        "sourceSelector": "div",
+        "sourceClass": "container-fluid p-0",
+        "sourceHash": "7099396170fd893c"
+      },
+      "action": {
+        "type": "none",
+        "target": "",
+        "open_mode": "same_tab",
+        "tracking_id": "template_saas_trustbadge"
+      },
+      "translations": {
+        "en": {
+          "title": "Category",
+          "subtitle": "Saas",
+          "body": "Category",
+          "label": "Open"
+        }
+      },
+      "source": {
+        "type": "TrustBadge",
+        "selector": "div",
+        "className": "container-fluid p-0",
+        "text": "Category",
+        "content_hash": "7099396170fd893c"
+      }
+    },
+    {
+      "id": "trustbadge_7_48cc463825941b90",
+      "type": "TrustBadge",
+      "enabled": true,
+      "x": 48,
+      "y": 1944,
+      "width": 1104,
+      "height": 210,
+      "scale": 1,
+      "layout": {
+        "mode": "absolute",
+        "x": 48,
+        "y": 1944,
+        "zIndex": 8
+      },
+      "style": {
+        "width": 1104,
+        "height": 210,
+        "margin": "0",
+        "padding": "28px",
+        "background": "#FFFFFF",
+        "color": "#0F172A",
+        "buttonColor": "#F97316",
+        "borderColor": "#E2E8F0",
+        "borderRadius": 18
+      },
+      "props": {
+        "sourceSelector": "div",
+        "sourceClass": "col-lg-4 col-sm-6",
+        "sourceHash": "48cc463825941b90"
+      },
+      "action": {
+        "type": "none",
+        "target": "",
+        "open_mode": "same_tab",
+        "tracking_id": "template_saas_trustbadge"
+      },
+      "translations": {
+        "en": {
+          "title": "Category",
+          "subtitle": "Saas",
+          "body": "Category",
+          "label": "Open"
+        }
+      },
+      "source": {
+        "type": "TrustBadge",
+        "selector": "div",
+        "className": "col-lg-4 col-sm-6",
+        "text": "Category",
+        "content_hash": "48cc463825941b90"
+      }
+    },
+    {
+      "id": "trustbadge_8_d43bda1486c82d44",
+      "type": "TrustBadge",
+      "enabled": true,
+      "x": 48,
+      "y": 2196,
+      "width": 1104,
+      "height": 210,
+      "scale": 1,
+      "layout": {
+        "mode": "absolute",
+        "x": 48,
+        "y": 2196,
+        "zIndex": 9
+      },
+      "style": {
+        "width": 1104,
+        "height": 210,
+        "margin": "0",
+        "padding": "28px",
+        "background": "#FFFFFF",
+        "color": "#0F172A",
+        "buttonColor": "#F97316",
+        "borderColor": "#E2E8F0",
+        "borderRadius": 18
+      },
+      "props": {
+        "sourceSelector": "div",
+        "sourceClass": "col-lg-4 col-sm-6",
+        "sourceHash": "d43bda1486c82d44"
+      },
+      "action": {
+        "type": "none",
+        "target": "",
+        "open_mode": "same_tab",
+        "tracking_id": "template_saas_trustbadge"
+      },
+      "translations": {
+        "en": {
+          "title": "Category",
+          "subtitle": "Saas",
+          "body": "Category",
+          "label": "Open"
+        }
+      },
+      "source": {
+        "type": "TrustBadge",
+        "selector": "div",
+        "className": "col-lg-4 col-sm-6",
+        "text": "Category",
+        "content_hash": "d43bda1486c82d44"
+      }
+    },
+    {
+      "id": "trustbadge_9_f1f2aac1100a899e",
+      "type": "TrustBadge",
+      "enabled": true,
+      "x": 48,
+      "y": 2448,
+      "width": 1104,
+      "height": 210,
+      "scale": 1,
+      "layout": {
+        "mode": "absolute",
+        "x": 48,
+        "y": 2448,
+        "zIndex": 10
+      },
+      "style": {
+        "width": 1104,
+        "height": 210,
+        "margin": "0",
+        "padding": "28px",
+        "background": "#FFFFFF",
+        "color": "#0F172A",
+        "buttonColor": "#F97316",
+        "borderColor": "#E2E8F0",
+        "borderRadius": 18
+      },
+      "props": {
+        "sourceSelector": "div",
+        "sourceClass": "col-lg-4 col-sm-6",
+        "sourceHash": "f1f2aac1100a899e"
+      },
+      "action": {
+        "type": "none",
+        "target": "",
+        "open_mode": "same_tab",
+        "tracking_id": "template_saas_trustbadge"
+      },
+      "translations": {
+        "en": {
+          "title": "Category",
+          "subtitle": "Saas",
+          "body": "Category",
+          "label": "Open"
+        }
+      },
+      "source": {
+        "type": "TrustBadge",
+        "selector": "div",
+        "className": "col-lg-4 col-sm-6",
+        "text": "Category",
+        "content_hash": "f1f2aac1100a899e"
+      }
+    },
+    {
+      "id": "trustbadge_10_b457b366c2d80379",
+      "type": "TrustBadge",
+      "enabled": true,
+      "x": 48,
+      "y": 2700,
+      "width": 1104,
+      "height": 210,
+      "scale": 1,
+      "layout": {
+        "mode": "absolute",
+        "x": 48,
+        "y": 2700,
+        "zIndex": 11
+      },
+      "style": {
+        "width": 1104,
+        "height": 210,
+        "margin": "0",
+        "padding": "28px",
+        "background": "#FFFFFF",
+        "color": "#0F172A",
+        "buttonColor": "#F97316",
+        "borderColor": "#E2E8F0",
+        "borderRadius": 18
+      },
+      "props": {
+        "sourceSelector": "div",
+        "sourceClass": "col-lg-4 col-sm-6",
+        "sourceHash": "b457b366c2d80379"
+      },
+      "action": {
+        "type": "none",
+        "target": "",
+        "open_mode": "same_tab",
+        "tracking_id": "template_saas_trustbadge"
+      },
+      "translations": {
+        "en": {
+          "title": "Category",
+          "subtitle": "Saas",
+          "body": "Category",
+          "label": "Open"
+        }
+      },
+      "source": {
+        "type": "TrustBadge",
+        "selector": "div",
+        "className": "col-lg-4 col-sm-6",
+        "text": "Category",
+        "content_hash": "b457b366c2d80379"
+      }
+    },
+    {
+      "id": "trustbadge_11_6a70640fb677553e",
+      "type": "TrustBadge",
+      "enabled": true,
+      "x": 48,
+      "y": 2952,
+      "width": 1104,
+      "height": 210,
+      "scale": 1,
+      "layout": {
+        "mode": "absolute",
+        "x": 48,
+        "y": 2952,
+        "zIndex": 12
+      },
+      "style": {
+        "width": 1104,
+        "height": 210,
+        "margin": "0",
+        "padding": "28px",
+        "background": "#FFFFFF",
+        "color": "#0F172A",
+        "buttonColor": "#F97316",
+        "borderColor": "#E2E8F0",
+        "borderRadius": 18
+      },
+      "props": {
+        "sourceSelector": "div",
+        "sourceClass": "col-lg-4 col-sm-6",
+        "sourceHash": "6a70640fb677553e"
+      },
+      "action": {
+        "type": "none",
+        "target": "",
+        "open_mode": "same_tab",
+        "tracking_id": "template_saas_trustbadge"
+      },
+      "translations": {
+        "en": {
+          "title": "Category",
+          "subtitle": "Saas",
+          "body": "Category",
+          "label": "Open"
+        }
+      },
+      "source": {
+        "type": "TrustBadge",
+        "selector": "div",
+        "className": "col-lg-4 col-sm-6",
+        "text": "Category",
+        "content_hash": "6a70640fb677553e"
+      }
+    },
+    {
+      "id": "imagetext_12_79e3f60afdb07ab5",
+      "type": "ImageText",
+      "enabled": true,
+      "x": 48,
+      "y": 3204,
+      "width": 1104,
+      "height": 320,
+      "scale": 1,
+      "layout": {
+        "mode": "absolute",
+        "x": 48,
+        "y": 3204,
+        "zIndex": 13
+      },
+      "style": {
+        "width": 1104,
+        "height": 320,
+        "margin": "0",
+        "padding": "28px",
+        "background": "#FFFFFF",
+        "color": "#0F172A",
+        "buttonColor": "#F97316",
+        "borderColor": "#E2E8F0",
+        "borderRadius": 18
+      },
+      "props": {
+        "sourceSelector": "section",
+        "sourceClass": "page-section bg-dark text-white",
+        "sourceHash": "79e3f60afdb07ab5"
+      },
+      "action": {
+        "type": "none",
+        "target": "",
+        "open_mode": "same_tab",
+        "tracking_id": "template_saas_imagetext"
+      },
+      "translations": {
+        "en": {
+          "title": "Free Download at Start Bootstrap!",
+          "subtitle": "Saas",
+          "body": "Download Now!",
+          "label": "Download"
+        }
+      },
+      "source": {
+        "type": "CTASection",
+        "selector": "section",
+        "className": "page-section bg-dark text-white",
+        "text": "Free Download at Start Bootstrap! Download Now!",
+        "content_hash": "79e3f60afdb07ab5"
+      }
+    },
+    {
+      "id": "imagetext_13_e0efe2ab7124de5a",
+      "type": "ImageText",
+      "enabled": true,
+      "x": 48,
+      "y": 3566,
+      "width": 1104,
+      "height": 320,
+      "scale": 1,
+      "layout": {
+        "mode": "absolute",
+        "x": 48,
+        "y": 3566,
+        "zIndex": 14
+      },
+      "style": {
+        "width": 1104,
+        "height": 320,
+        "margin": "0",
+        "padding": "28px",
+        "background": "#FFFFFF",
+        "color": "#0F172A",
+        "buttonColor": "#F97316",
+        "borderColor": "#E2E8F0",
+        "borderRadius": 18
+      },
+      "props": {
+        "sourceSelector": "section",
+        "sourceClass": "page-section",
+        "sourceHash": "e0efe2ab7124de5a"
+      },
+      "action": {
+        "type": "none",
+        "target": "",
+        "open_mode": "same_tab",
+        "tracking_id": "template_saas_imagetext"
+      },
+      "translations": {
+        "en": {
+          "title": "Let's Get In Touch!",
+          "subtitle": "Saas",
+          "body": "Ready to start your next project with us? Send us a messages and we will get back to you as soon as possible! Full name",
+          "label": "Open"
+        }
+      },
+      "source": {
+        "type": "CTASection",
+        "selector": "section",
+        "className": "page-section",
+        "text": "Let's Get In Touch! Ready to start your next project with us? Send us a messages and we will get back to you as soon as possible! Full name ",
+        "content_hash": "e0efe2ab7124de5a"
+      }
+    },
+    {
+      "id": "footer_14_1cc01e309eb132d6",
+      "type": "Footer",
+      "enabled": true,
+      "x": 48,
+      "y": 3928,
+      "width": 1104,
+      "height": 190,
+      "scale": 1,
+      "layout": {
+        "mode": "absolute",
+        "x": 48,
+        "y": 3928,
+        "zIndex": 15
+      },
+      "style": {
+        "width": 1104,
+        "height": 190,
+        "margin": "0",
+        "padding": "28px",
+        "background": "#07111F",
+        "color": "#E5F7FF",
+        "buttonColor": "#F97316",
+        "borderColor": "#E2E8F0",
+        "borderRadius": 18
+      },
+      "props": {
+        "sourceSelector": "footer",
+        "sourceClass": "bg-light py-5",
+        "sourceHash": "1cc01e309eb132d6"
+      },
+      "action": {
+        "type": "none",
+        "target": "",
+        "open_mode": "same_tab",
+        "tracking_id": "template_saas_footer"
+      },
+      "translations": {
+        "en": {
+          "title": "Copyright © 2023 - Company Name",
+          "subtitle": "Saas",
+          "body": "Copyright © 2023 - Company Name",
+          "label": "Open"
+        }
+      },
+      "source": {
+        "type": "Footer",
+        "selector": "footer",
+        "className": "bg-light py-5",
+        "text": "Copyright © 2023 - Company Name",
+        "content_hash": "1cc01e309eb132d6"
+      }
+    }
+  ],
+  "translations": {
+    "en": {
+      "title": "Creative - Start Bootstrap Theme",
+      "subtitle": "saas",
+      "description": "Creative - Start Bootstrap Theme"
+    }
+  }
+}
