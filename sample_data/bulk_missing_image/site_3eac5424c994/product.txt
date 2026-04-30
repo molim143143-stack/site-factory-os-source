@@ -1,0 +1,4 @@
+name: Bulk Shoes
+price: 19.99
+images:
+- missing.jpg
