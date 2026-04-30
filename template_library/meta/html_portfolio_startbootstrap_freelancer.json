@@ -1,0 +1,1116 @@
+{
+  "id": "html_portfolio_startbootstrap_freelancer",
+  "name": "startbootstrap-freelancer",
+  "source": "github",
+  "repo_url": "https://github.com/startbootstrap/startbootstrap-freelancer",
+  "repo_name": "startbootstrap-freelancer",
+  "framework": "html",
+  "category": "portfolio",
+  "license": "MIT",
+  "stars": 2608,
+  "approved": true,
+  "status": "available",
+  "source_path": "template_library/raw/html/startbootstrap-freelancer/dist/index.html",
+  "local_raw_path": "template_library/raw/html/startbootstrap-freelancer",
+  "local_path": "template_library/raw/html/startbootstrap-freelancer",
+  "normalized_path": "template_library/normalized/portfolio/html_portfolio_startbootstrap_freelancer",
+  "entry": "index.html",
+  "last_commit": "2023-03-25T19:42:56Z",
+  "supports_static_export": true,
+  "can_use_in_builder": true,
+  "template_type": "static_template",
+  "checks": {
+    "header": true,
+    "hero": true,
+    "features": true,
+    "cta": true,
+    "footer": true,
+    "html_length": 30997,
+    "css_length": 241506,
+    "blocks": 20
+  },
+  "notes": "",
+  "preview": "preview.html",
+  "page_schema": {
+    "templateId": "html_portfolio_startbootstrap_freelancer",
+    "type": "page_template",
+    "template_type": "static_template",
+    "mode": "static_template",
+    "schemaVersion": 3,
+    "static_template": {
+      "normalized_path": "template_library/normalized/portfolio/html_portfolio_startbootstrap_freelancer",
+      "entry": "index.html",
+      "preview": "preview.html",
+      "asset_root": "assets/site"
+    },
+    "blocks": [
+      {
+        "id": "ctasection_1_3a1bfcb43d66b293",
+        "type": "CTASection",
+        "enabled": true,
+        "x": 48,
+        "y": 32,
+        "width": 1104,
+        "height": 280,
+        "scale": 1,
+        "layout": {
+          "mode": "absolute",
+          "x": 48,
+          "y": 32,
+          "zIndex": 2
+        },
+        "style": {
+          "width": 1104,
+          "height": 280,
+          "margin": "0",
+          "padding": "28px",
+          "background": "#111827",
+          "color": "#E5F7FF",
+          "buttonColor": "#2563EB",
+          "borderColor": "#E2E8F0",
+          "borderRadius": 18
+        },
+        "props": {
+          "sourceSelector": "nav",
+          "sourceClass": "navbar navbar-expand-lg bg-secondary text-uppercase fixed-top",
+          "sourceHash": "3a1bfcb43d66b293"
+        },
+        "action": {
+          "type": "external_url",
+          "target": "#contact",
+          "open_mode": "same_tab",
+          "tracking_id": "template_portfolio_ctasection"
+        },
+        "translations": {
+          "en": {
+            "title": "Start Bootstrap Menu Portfolio About Contact",
+            "subtitle": "Portfolio",
+            "body": "Start Bootstrap Menu Portfolio About Contact",
+            "label": "Contact"
+          }
+        },
+        "source": {
+          "type": "CTASection",
+          "selector": "nav",
+          "className": "navbar navbar-expand-lg bg-secondary text-uppercase fixed-top",
+          "text": "Start Bootstrap Menu Portfolio About Contact",
+          "content_hash": "3a1bfcb43d66b293"
+        }
+      },
+      {
+        "id": "imagetext_2_c62ce4330f754ff6",
+        "type": "ImageText",
+        "enabled": true,
+        "x": 48,
+        "y": 354,
+        "width": 1104,
+        "height": 320,
+        "scale": 1,
+        "layout": {
+          "mode": "absolute",
+          "x": 48,
+          "y": 354,
+          "zIndex": 3
+        },
+        "style": {
+          "width": 1104,
+          "height": 320,
+          "margin": "0",
+          "padding": "28px",
+          "background": "#FFFFFF",
+          "color": "#0F172A",
+          "buttonColor": "#2563EB",
+          "borderColor": "#E2E8F0",
+          "borderRadius": 18
+        },
+        "props": {
+          "sourceSelector": "div",
+          "sourceClass": "container",
+          "sourceHash": "c62ce4330f754ff6"
+        },
+        "action": {
+          "type": "none",
+          "target": "",
+          "open_mode": "same_tab",
+          "tracking_id": "template_portfolio_imagetext"
+        },
+        "translations": {
+          "en": {
+            "title": "Start Bootstrap Menu Portfolio About Contact",
+            "subtitle": "Portfolio",
+            "body": "Start Bootstrap Menu Portfolio About Contact",
+            "label": "Contact"
+          }
+        },
+        "source": {
+          "type": "CTASection",
+          "selector": "div",
+          "className": "container",
+          "text": "Start Bootstrap Menu Portfolio About Contact",
+          "content_hash": "c62ce4330f754ff6"
+        }
+      },
+      {
+        "id": "hero_3_2fde45a7eb62a429",
+        "type": "Hero",
+        "enabled": true,
+        "x": 48,
+        "y": 716,
+        "width": 1104,
+        "height": 430,
+        "scale": 1,
+        "layout": {
+          "mode": "absolute",
+          "x": 48,
+          "y": 716,
+          "zIndex": 4
+        },
+        "style": {
+          "width": 1104,
+          "height": 430,
+          "margin": "0",
+          "padding": "28px",
+          "background": "#F8FAFC",
+          "color": "#0F172A",
+          "buttonColor": "#2563EB",
+          "borderColor": "#E2E8F0",
+          "borderRadius": 18
+        },
+        "props": {
+          "sourceSelector": "header",
+          "sourceClass": "masthead bg-primary text-white text-center",
+          "sourceHash": "2fde45a7eb62a429"
+        },
+        "action": {
+          "type": "external_url",
+          "target": "#contact",
+          "open_mode": "same_tab",
+          "tracking_id": "template_portfolio_hero"
+        },
+        "translations": {
+          "en": {
+            "title": "Start Bootstrap Graphic Artist - Web Designer - Illustrator",
+            "subtitle": "Portfolio",
+            "body": "Start Bootstrap Graphic Artist - Web Designer - Illustrator",
+            "label": "Open"
+          }
+        },
+        "source": {
+          "type": "Hero",
+          "selector": "header",
+          "className": "masthead bg-primary text-white text-center",
+          "text": "Start Bootstrap Graphic Artist - Web Designer - Illustrator",
+          "content_hash": "2fde45a7eb62a429"
+        }
+      },
+      {
+        "id": "imagetext_4_7890bd9b0304e8da",
+        "type": "ImageText",
+        "enabled": true,
+        "x": 48,
+        "y": 1188,
+        "width": 1104,
+        "height": 320,
+        "scale": 1,
+        "layout": {
+          "mode": "absolute",
+          "x": 48,
+          "y": 1188,
+          "zIndex": 5
+        },
+        "style": {
+          "width": 1104,
+          "height": 320,
+          "margin": "0",
+          "padding": "28px",
+          "background": "#FFFFFF",
+          "color": "#0F172A",
+          "buttonColor": "#2563EB",
+          "borderColor": "#E2E8F0",
+          "borderRadius": 18
+        },
+        "props": {
+          "sourceSelector": "div",
+          "sourceClass": "container d-flex align-items-center flex-column",
+          "sourceHash": "7890bd9b0304e8da"
+        },
+        "action": {
+          "type": "none",
+          "target": "",
+          "open_mode": "same_tab",
+          "tracking_id": "template_portfolio_imagetext"
+        },
+        "translations": {
+          "en": {
+            "title": "Start Bootstrap",
+            "subtitle": "Portfolio",
+            "body": "Start Bootstrap",
+            "label": "Open"
+          }
+        },
+        "source": {
+          "type": "Hero",
+          "selector": "div",
+          "className": "container d-flex align-items-center flex-column",
+          "text": "Start Bootstrap",
+          "content_hash": "7890bd9b0304e8da"
+        }
+      },
+      {
+        "id": "trustbadge_5_9466e763bc54c482",
+        "type": "TrustBadge",
+        "enabled": true,
+        "x": 48,
+        "y": 1550,
+        "width": 1104,
+        "height": 210,
+        "scale": 1,
+        "layout": {
+          "mode": "absolute",
+          "x": 48,
+          "y": 1550,
+          "zIndex": 6
+        },
+        "style": {
+          "width": 1104,
+          "height": 210,
+          "margin": "0",
+          "padding": "28px",
+          "background": "#FFFFFF",
+          "color": "#0F172A",
+          "buttonColor": "#2563EB",
+          "borderColor": "#E2E8F0",
+          "borderRadius": 18
+        },
+        "props": {
+          "sourceSelector": "section",
+          "sourceClass": "page-section portfolio",
+          "sourceHash": "9466e763bc54c482"
+        },
+        "action": {
+          "type": "none",
+          "target": "",
+          "open_mode": "same_tab",
+          "tracking_id": "template_portfolio_trustbadge"
+        },
+        "translations": {
+          "en": {
+            "title": "Portfolio",
+            "subtitle": "Portfolio",
+            "body": "Portfolio",
+            "label": "Open"
+          }
+        },
+        "source": {
+          "type": "TrustBadge",
+          "selector": "section",
+          "className": "page-section portfolio",
+          "text": "Portfolio",
+          "content_hash": "9466e763bc54c482"
+        }
+      },
+      {
+        "id": "trustbadge_6_e6b96099861a6adc",
+        "type": "TrustBadge",
+        "enabled": true,
+        "x": 48,
+        "y": 1802,
+        "width": 1104,
+        "height": 210,
+        "scale": 1,
+        "layout": {
+          "mode": "absolute",
+          "x": 48,
+          "y": 1802,
+          "zIndex": 7
+        },
+        "style": {
+          "width": 1104,
+          "height": 210,
+          "margin": "0",
+          "padding": "28px",
+          "background": "#FFFFFF",
+          "color": "#0F172A",
+          "buttonColor": "#2563EB",
+          "borderColor": "#E2E8F0",
+          "borderRadius": 18
+        },
+        "props": {
+          "sourceSelector": "div",
+          "sourceClass": "container",
+          "sourceHash": "e6b96099861a6adc"
+        },
+        "action": {
+          "type": "none",
+          "target": "",
+          "open_mode": "same_tab",
+          "tracking_id": "template_portfolio_trustbadge"
+        },
+        "translations": {
+          "en": {
+            "title": "Portfolio",
+            "subtitle": "Portfolio",
+            "body": "Portfolio",
+            "label": "Open"
+          }
+        },
+        "source": {
+          "type": "TrustBadge",
+          "selector": "div",
+          "className": "container",
+          "text": "Portfolio",
+          "content_hash": "e6b96099861a6adc"
+        }
+      },
+      {
+        "id": "trustbadge_7_ae8b6c03c2d7ff0c",
+        "type": "TrustBadge",
+        "enabled": true,
+        "x": 48,
+        "y": 2054,
+        "width": 1104,
+        "height": 210,
+        "scale": 1,
+        "layout": {
+          "mode": "absolute",
+          "x": 48,
+          "y": 2054,
+          "zIndex": 8
+        },
+        "style": {
+          "width": 1104,
+          "height": 210,
+          "margin": "0",
+          "padding": "28px",
+          "background": "#FFFFFF",
+          "color": "#0F172A",
+          "buttonColor": "#2563EB",
+          "borderColor": "#E2E8F0",
+          "borderRadius": 18
+        },
+        "props": {
+          "sourceSelector": "div",
+          "sourceClass": "row justify-content-center",
+          "sourceHash": "ae8b6c03c2d7ff0c"
+        },
+        "action": {
+          "type": "none",
+          "target": "",
+          "open_mode": "same_tab",
+          "tracking_id": "template_portfolio_trustbadge"
+        },
+        "translations": {
+          "en": {
+            "title": "TrustBadge",
+            "subtitle": "Portfolio",
+            "body": "",
+            "label": "Open"
+          }
+        },
+        "source": {
+          "type": "TrustBadge",
+          "selector": "div",
+          "className": "row justify-content-center",
+          "text": "",
+          "content_hash": "ae8b6c03c2d7ff0c"
+        }
+      },
+      {
+        "id": "trustbadge_8_6db70a81e0fa6d73",
+        "type": "TrustBadge",
+        "enabled": true,
+        "x": 48,
+        "y": 2306,
+        "width": 1104,
+        "height": 210,
+        "scale": 1,
+        "layout": {
+          "mode": "absolute",
+          "x": 48,
+          "y": 2306,
+          "zIndex": 9
+        },
+        "style": {
+          "width": 1104,
+          "height": 210,
+          "margin": "0",
+          "padding": "28px",
+          "background": "#FFFFFF",
+          "color": "#0F172A",
+          "buttonColor": "#2563EB",
+          "borderColor": "#E2E8F0",
+          "borderRadius": 18
+        },
+        "props": {
+          "sourceSelector": "div",
+          "sourceClass": "col-md-6 col-lg-4 mb-5",
+          "sourceHash": "6db70a81e0fa6d73"
+        },
+        "action": {
+          "type": "none",
+          "target": "",
+          "open_mode": "same_tab",
+          "tracking_id": "template_portfolio_trustbadge"
+        },
+        "translations": {
+          "en": {
+            "title": "TrustBadge",
+            "subtitle": "Portfolio",
+            "body": "",
+            "label": "Open"
+          }
+        },
+        "source": {
+          "type": "TrustBadge",
+          "selector": "div",
+          "className": "col-md-6 col-lg-4 mb-5",
+          "text": "",
+          "content_hash": "6db70a81e0fa6d73"
+        }
+      },
+      {
+        "id": "trustbadge_9_62ab5fd4f05b4486",
+        "type": "TrustBadge",
+        "enabled": true,
+        "x": 48,
+        "y": 2558,
+        "width": 1104,
+        "height": 210,
+        "scale": 1,
+        "layout": {
+          "mode": "absolute",
+          "x": 48,
+          "y": 2558,
+          "zIndex": 10
+        },
+        "style": {
+          "width": 1104,
+          "height": 210,
+          "margin": "0",
+          "padding": "28px",
+          "background": "#FFFFFF",
+          "color": "#0F172A",
+          "buttonColor": "#2563EB",
+          "borderColor": "#E2E8F0",
+          "borderRadius": 18
+        },
+        "props": {
+          "sourceSelector": "div",
+          "sourceClass": "col-md-6 col-lg-4 mb-5",
+          "sourceHash": "62ab5fd4f05b4486"
+        },
+        "action": {
+          "type": "none",
+          "target": "",
+          "open_mode": "same_tab",
+          "tracking_id": "template_portfolio_trustbadge"
+        },
+        "translations": {
+          "en": {
+            "title": "TrustBadge",
+            "subtitle": "Portfolio",
+            "body": "",
+            "label": "Open"
+          }
+        },
+        "source": {
+          "type": "TrustBadge",
+          "selector": "div",
+          "className": "col-md-6 col-lg-4 mb-5",
+          "text": "",
+          "content_hash": "62ab5fd4f05b4486"
+        }
+      },
+      {
+        "id": "trustbadge_10_94fc848ddecac4aa",
+        "type": "TrustBadge",
+        "enabled": true,
+        "x": 48,
+        "y": 2810,
+        "width": 1104,
+        "height": 210,
+        "scale": 1,
+        "layout": {
+          "mode": "absolute",
+          "x": 48,
+          "y": 2810,
+          "zIndex": 11
+        },
+        "style": {
+          "width": 1104,
+          "height": 210,
+          "margin": "0",
+          "padding": "28px",
+          "background": "#FFFFFF",
+          "color": "#0F172A",
+          "buttonColor": "#2563EB",
+          "borderColor": "#E2E8F0",
+          "borderRadius": 18
+        },
+        "props": {
+          "sourceSelector": "div",
+          "sourceClass": "col-md-6 col-lg-4 mb-5 mb-lg-0",
+          "sourceHash": "94fc848ddecac4aa"
+        },
+        "action": {
+          "type": "none",
+          "target": "",
+          "open_mode": "same_tab",
+          "tracking_id": "template_portfolio_trustbadge"
+        },
+        "translations": {
+          "en": {
+            "title": "TrustBadge",
+            "subtitle": "Portfolio",
+            "body": "",
+            "label": "Open"
+          }
+        },
+        "source": {
+          "type": "TrustBadge",
+          "selector": "div",
+          "className": "col-md-6 col-lg-4 mb-5 mb-lg-0",
+          "text": "",
+          "content_hash": "94fc848ddecac4aa"
+        }
+      },
+      {
+        "id": "trustbadge_11_3a4332634e695270",
+        "type": "TrustBadge",
+        "enabled": true,
+        "x": 48,
+        "y": 3062,
+        "width": 1104,
+        "height": 210,
+        "scale": 1,
+        "layout": {
+          "mode": "absolute",
+          "x": 48,
+          "y": 3062,
+          "zIndex": 12
+        },
+        "style": {
+          "width": 1104,
+          "height": 210,
+          "margin": "0",
+          "padding": "28px",
+          "background": "#FFFFFF",
+          "color": "#0F172A",
+          "buttonColor": "#2563EB",
+          "borderColor": "#E2E8F0",
+          "borderRadius": 18
+        },
+        "props": {
+          "sourceSelector": "div",
+          "sourceClass": "col-md-6 col-lg-4 mb-5 mb-md-0",
+          "sourceHash": "3a4332634e695270"
+        },
+        "action": {
+          "type": "none",
+          "target": "",
+          "open_mode": "same_tab",
+          "tracking_id": "template_portfolio_trustbadge"
+        },
+        "translations": {
+          "en": {
+            "title": "TrustBadge",
+            "subtitle": "Portfolio",
+            "body": "",
+            "label": "Open"
+          }
+        },
+        "source": {
+          "type": "TrustBadge",
+          "selector": "div",
+          "className": "col-md-6 col-lg-4 mb-5 mb-md-0",
+          "text": "",
+          "content_hash": "3a4332634e695270"
+        }
+      },
+      {
+        "id": "trustbadge_12_164aa5a28f649841",
+        "type": "TrustBadge",
+        "enabled": true,
+        "x": 48,
+        "y": 3314,
+        "width": 1104,
+        "height": 210,
+        "scale": 1,
+        "layout": {
+          "mode": "absolute",
+          "x": 48,
+          "y": 3314,
+          "zIndex": 13
+        },
+        "style": {
+          "width": 1104,
+          "height": 210,
+          "margin": "0",
+          "padding": "28px",
+          "background": "#FFFFFF",
+          "color": "#0F172A",
+          "buttonColor": "#2563EB",
+          "borderColor": "#E2E8F0",
+          "borderRadius": 18
+        },
+        "props": {
+          "sourceSelector": "div",
+          "sourceClass": "col-md-6 col-lg-4",
+          "sourceHash": "164aa5a28f649841"
+        },
+        "action": {
+          "type": "none",
+          "target": "",
+          "open_mode": "same_tab",
+          "tracking_id": "template_portfolio_trustbadge"
+        },
+        "translations": {
+          "en": {
+            "title": "TrustBadge",
+            "subtitle": "Portfolio",
+            "body": "",
+            "label": "Open"
+          }
+        },
+        "source": {
+          "type": "TrustBadge",
+          "selector": "div",
+          "className": "col-md-6 col-lg-4",
+          "text": "",
+          "content_hash": "164aa5a28f649841"
+        }
+      },
+      {
+        "id": "imagetext_13_b54b4d692b39d2d2",
+        "type": "ImageText",
+        "enabled": true,
+        "x": 48,
+        "y": 3566,
+        "width": 1104,
+        "height": 320,
+        "scale": 1,
+        "layout": {
+          "mode": "absolute",
+          "x": 48,
+          "y": 3566,
+          "zIndex": 14
+        },
+        "style": {
+          "width": 1104,
+          "height": 320,
+          "margin": "0",
+          "padding": "28px",
+          "background": "#FFFFFF",
+          "color": "#0F172A",
+          "buttonColor": "#2563EB",
+          "borderColor": "#E2E8F0",
+          "borderRadius": 18
+        },
+        "props": {
+          "sourceSelector": "section",
+          "sourceClass": "page-section bg-primary text-white mb-0",
+          "sourceHash": "b54b4d692b39d2d2"
+        },
+        "action": {
+          "type": "none",
+          "target": "",
+          "open_mode": "same_tab",
+          "tracking_id": "template_portfolio_imagetext"
+        },
+        "translations": {
+          "en": {
+            "title": "About Freelancer is a free bootstrap theme created by Start Bootstrap.",
+            "subtitle": "Portfolio",
+            "body": "The download includes the complete source files including HTML, CSS,",
+            "label": "Download"
+          }
+        },
+        "source": {
+          "type": "CTASection",
+          "selector": "section",
+          "className": "page-section bg-primary text-white mb-0",
+          "text": "About Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, ",
+          "content_hash": "b54b4d692b39d2d2"
+        }
+      },
+      {
+        "id": "imagetext_14_330dc334a94d6b38",
+        "type": "ImageText",
+        "enabled": true,
+        "x": 48,
+        "y": 3928,
+        "width": 1104,
+        "height": 320,
+        "scale": 1,
+        "layout": {
+          "mode": "absolute",
+          "x": 48,
+          "y": 3928,
+          "zIndex": 15
+        },
+        "style": {
+          "width": 1104,
+          "height": 320,
+          "margin": "0",
+          "padding": "28px",
+          "background": "#FFFFFF",
+          "color": "#0F172A",
+          "buttonColor": "#2563EB",
+          "borderColor": "#E2E8F0",
+          "borderRadius": 18
+        },
+        "props": {
+          "sourceSelector": "div",
+          "sourceClass": "container",
+          "sourceHash": "330dc334a94d6b38"
+        },
+        "action": {
+          "type": "none",
+          "target": "",
+          "open_mode": "same_tab",
+          "tracking_id": "template_portfolio_imagetext"
+        },
+        "translations": {
+          "en": {
+            "title": "About",
+            "subtitle": "Portfolio",
+            "body": "About",
+            "label": "Open"
+          }
+        },
+        "source": {
+          "type": "ImageText",
+          "selector": "div",
+          "className": "container",
+          "text": "About",
+          "content_hash": "330dc334a94d6b38"
+        }
+      },
+      {
+        "id": "imagetext_15_1c97275c76593930",
+        "type": "ImageText",
+        "enabled": true,
+        "x": 48,
+        "y": 4290,
+        "width": 1104,
+        "height": 320,
+        "scale": 1,
+        "layout": {
+          "mode": "absolute",
+          "x": 48,
+          "y": 4290,
+          "zIndex": 16
+        },
+        "style": {
+          "width": 1104,
+          "height": 320,
+          "margin": "0",
+          "padding": "28px",
+          "background": "#FFFFFF",
+          "color": "#0F172A",
+          "buttonColor": "#2563EB",
+          "borderColor": "#E2E8F0",
+          "borderRadius": 18
+        },
+        "props": {
+          "sourceSelector": "section",
+          "sourceClass": "page-section",
+          "sourceHash": "1c97275c76593930"
+        },
+        "action": {
+          "type": "none",
+          "target": "",
+          "open_mode": "same_tab",
+          "tracking_id": "template_portfolio_imagetext"
+        },
+        "translations": {
+          "en": {
+            "title": "Contact Me Full name A name is required.",
+            "subtitle": "Portfolio",
+            "body": "Email address An email is required. Email is not valid. Phone number A phone number is required.",
+            "label": "Contact"
+          }
+        },
+        "source": {
+          "type": "CTASection",
+          "selector": "section",
+          "className": "page-section",
+          "text": "Contact Me Full name A name is required. Email address An email is required. Email is not valid. Phone number A phone number is required. Me",
+          "content_hash": "1c97275c76593930"
+        }
+      },
+      {
+        "id": "imagetext_16_7273bcdef30a288e",
+        "type": "ImageText",
+        "enabled": true,
+        "x": 48,
+        "y": 4652,
+        "width": 1104,
+        "height": 320,
+        "scale": 1,
+        "layout": {
+          "mode": "absolute",
+          "x": 48,
+          "y": 4652,
+          "zIndex": 17
+        },
+        "style": {
+          "width": 1104,
+          "height": 320,
+          "margin": "0",
+          "padding": "28px",
+          "background": "#FFFFFF",
+          "color": "#0F172A",
+          "buttonColor": "#2563EB",
+          "borderColor": "#E2E8F0",
+          "borderRadius": 18
+        },
+        "props": {
+          "sourceSelector": "div",
+          "sourceClass": "container",
+          "sourceHash": "7273bcdef30a288e"
+        },
+        "action": {
+          "type": "none",
+          "target": "",
+          "open_mode": "same_tab",
+          "tracking_id": "template_portfolio_imagetext"
+        },
+        "translations": {
+          "en": {
+            "title": "Contact Me",
+            "subtitle": "Portfolio",
+            "body": "Contact Me",
+            "label": "Contact"
+          }
+        },
+        "source": {
+          "type": "CTASection",
+          "selector": "div",
+          "className": "container",
+          "text": "Contact Me",
+          "content_hash": "7273bcdef30a288e"
+        }
+      },
+      {
+        "id": "footer_17_3a0bdd429f88a55c",
+        "type": "Footer",
+        "enabled": true,
+        "x": 48,
+        "y": 5014,
+        "width": 1104,
+        "height": 190,
+        "scale": 1,
+        "layout": {
+          "mode": "absolute",
+          "x": 48,
+          "y": 5014,
+          "zIndex": 18
+        },
+        "style": {
+          "width": 1104,
+          "height": 190,
+          "margin": "0",
+          "padding": "28px",
+          "background": "#07111F",
+          "color": "#E5F7FF",
+          "buttonColor": "#2563EB",
+          "borderColor": "#E2E8F0",
+          "borderRadius": 18
+        },
+        "props": {
+          "sourceSelector": "footer",
+          "sourceClass": "footer text-center",
+          "sourceHash": "3a0bdd429f88a55c"
+        },
+        "action": {
+          "type": "none",
+          "target": "",
+          "open_mode": "same_tab",
+          "tracking_id": "template_portfolio_footer"
+        },
+        "translations": {
+          "en": {
+            "title": "Location 2215 John Daniel Drive Clark, MO 65243 Around the Web About Freelance",
+            "subtitle": "Portfolio",
+            "body": "Location 2215 John Daniel Drive Clark, MO 65243 Around the Web About Freelancer Freelance is a free to use, MIT licensed Bootstrap theme cre",
+            "label": "Open"
+          }
+        },
+        "source": {
+          "type": "Footer",
+          "selector": "footer",
+          "className": "footer text-center",
+          "text": "Location 2215 John Daniel Drive Clark, MO 65243 Around the Web About Freelancer Freelance is a free to use, MIT licensed Bootstrap theme cre",
+          "content_hash": "3a0bdd429f88a55c"
+        }
+      },
+      {
+        "id": "imagetext_18_9e3c66e288fcb214",
+        "type": "ImageText",
+        "enabled": true,
+        "x": 48,
+        "y": 5246,
+        "width": 1104,
+        "height": 320,
+        "scale": 1,
+        "layout": {
+          "mode": "absolute",
+          "x": 48,
+          "y": 5246,
+          "zIndex": 19
+        },
+        "style": {
+          "width": 1104,
+          "height": 320,
+          "margin": "0",
+          "padding": "28px",
+          "background": "#FFFFFF",
+          "color": "#0F172A",
+          "buttonColor": "#2563EB",
+          "borderColor": "#E2E8F0",
+          "borderRadius": 18
+        },
+        "props": {
+          "sourceSelector": "div",
+          "sourceClass": "portfolio-modal modal fade",
+          "sourceHash": "9e3c66e288fcb214"
+        },
+        "action": {
+          "type": "none",
+          "target": "",
+          "open_mode": "same_tab",
+          "tracking_id": "template_portfolio_imagetext"
+        },
+        "translations": {
+          "en": {
+            "title": "ImageText",
+            "subtitle": "Portfolio",
+            "body": "",
+            "label": "Open"
+          }
+        },
+        "source": {
+          "type": "CTASection",
+          "selector": "div",
+          "className": "portfolio-modal modal fade",
+          "text": "",
+          "content_hash": "9e3c66e288fcb214"
+        }
+      },
+      {
+        "id": "trustbadge_19_4d281397cd440d88",
+        "type": "TrustBadge",
+        "enabled": true,
+        "x": 48,
+        "y": 5608,
+        "width": 1104,
+        "height": 210,
+        "scale": 1,
+        "layout": {
+          "mode": "absolute",
+          "x": 48,
+          "y": 5608,
+          "zIndex": 20
+        },
+        "style": {
+          "width": 1104,
+          "height": 210,
+          "margin": "0",
+          "padding": "28px",
+          "background": "#FFFFFF",
+          "color": "#0F172A",
+          "buttonColor": "#2563EB",
+          "borderColor": "#E2E8F0",
+          "borderRadius": 18
+        },
+        "props": {
+          "sourceSelector": "div",
+          "sourceClass": "modal-body text-center pb-5",
+          "sourceHash": "4d281397cd440d88"
+        },
+        "action": {
+          "type": "none",
+          "target": "",
+          "open_mode": "same_tab",
+          "tracking_id": "template_portfolio_trustbadge"
+        },
+        "translations": {
+          "en": {
+            "title": "Log Cabin",
+            "subtitle": "Portfolio",
+            "body": "Log Cabin",
+            "label": "Open"
+          }
+        },
+        "source": {
+          "type": "TrustBadge",
+          "selector": "div",
+          "className": "modal-body text-center pb-5",
+          "text": "Log Cabin",
+          "content_hash": "4d281397cd440d88"
+        }
+      },
+      {
+        "id": "imagetext_20_d30a3a0a3f5f2a1d",
+        "type": "ImageText",
+        "enabled": true,
+        "x": 48,
+        "y": 5860,
+        "width": 1104,
+        "height": 320,
+        "scale": 1,
+        "layout": {
+          "mode": "absolute",
+          "x": 48,
+          "y": 5860,
+          "zIndex": 21
+        },
+        "style": {
+          "width": 1104,
+          "height": 320,
+          "margin": "0",
+          "padding": "28px",
+          "background": "#FFFFFF",
+          "color": "#0F172A",
+          "buttonColor": "#2563EB",
+          "borderColor": "#E2E8F0",
+          "borderRadius": 18
+        },
+        "props": {
+          "sourceSelector": "div",
+          "sourceClass": "portfolio-modal modal fade",
+          "sourceHash": "d30a3a0a3f5f2a1d"
+        },
+        "action": {
+          "type": "none",
+          "target": "",
+          "open_mode": "same_tab",
+          "tracking_id": "template_portfolio_imagetext"
+        },
+        "translations": {
+          "en": {
+            "title": "ImageText",
+            "subtitle": "Portfolio",
+            "body": "",
+            "label": "Open"
+          }
+        },
+        "source": {
+          "type": "CTASection",
+          "selector": "div",
+          "className": "portfolio-modal modal fade",
+          "text": "",
+          "content_hash": "d30a3a0a3f5f2a1d"
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Freelancer - Start Bootstrap Theme",
+        "subtitle": "portfolio",
+        "description": "Freelancer - Start Bootstrap Theme"
+      }
+    }
+  }
+}
