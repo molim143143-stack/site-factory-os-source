@@ -1,0 +1,4 @@
+name: V2 Bulk Product
+price: 33.33
+images:
+- 1.jpg
