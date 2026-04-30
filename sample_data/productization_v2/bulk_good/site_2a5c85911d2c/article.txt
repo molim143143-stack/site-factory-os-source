@@ -1,0 +1,2 @@
+title: V2 Bulk Article
+content: Bulk article from frontend validate execute
