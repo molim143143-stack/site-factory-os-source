@@ -65,13 +65,13 @@
       }
     },
     {
-      "id": "imagetext_2_8f11984910894dee",
-      "type": "ImageText",
+      "id": "topnav_2_8f11984910894dee",
+      "type": "TopNav",
       "enabled": true,
       "x": 48,
       "y": 354,
       "width": 1104,
-      "height": 320,
+      "height": 78,
       "scale": 1,
       "layout": {
         "mode": "absolute",
@@ -81,7 +81,7 @@
       },
       "style": {
         "width": 1104,
-        "height": 320,
+        "height": 78,
         "margin": "0",
         "padding": "28px",
         "background": "#FFFFFF",
@@ -96,10 +96,10 @@
         "sourceHash": "8f11984910894dee"
       },
       "action": {
-        "type": "none",
-        "target": "",
+        "type": "external_url",
+        "target": "#contact",
         "open_mode": "same_tab",
-        "tracking_id": "template_docs_imagetext"
+        "tracking_id": "template_docs_topnav"
       },
       "translations": {
         "en": {
@@ -110,7 +110,7 @@
         }
       },
       "source": {
-        "type": "CTASection",
+        "type": "TopNav",
         "selector": "header",
         "className": "sticky-top",
         "text": "v1.0 Dropdown Action Dropdown Action Action Another Action Something Else Here Another Link Another Action Something Else Here Other Templat",
@@ -122,14 +122,14 @@
       "type": "ImageText",
       "enabled": true,
       "x": 48,
-      "y": 716,
+      "y": 474,
       "width": 1104,
       "height": 320,
       "scale": 1,
       "layout": {
         "mode": "absolute",
         "x": 48,
-        "y": 716,
+        "y": 474,
         "zIndex": 4
       },
       "style": {
@@ -163,7 +163,7 @@
         }
       },
       "source": {
-        "type": "CTASection",
+        "type": "TopNav",
         "selector": "nav",
         "className": "primary-menu navbar navbar-expand-lg navbar-dropdown-dark",
         "text": "v1.0 Dropdown Action Dropdown Action Action Another Action Something Else Here Another Link Another Action Something Else Here Other Templat",
@@ -175,14 +175,14 @@
       "type": "Footer",
       "enabled": true,
       "x": 48,
-      "y": 1078,
+      "y": 836,
       "width": 1104,
       "height": 190,
       "scale": 1,
       "layout": {
         "mode": "absolute",
         "x": 48,
-        "y": 1078,
+        "y": 836,
         "zIndex": 5
       },
       "style": {
@@ -228,14 +228,14 @@
       "type": "TrustBadge",
       "enabled": true,
       "x": 48,
-      "y": 1310,
+      "y": 1068,
       "width": 1104,
       "height": 210,
       "scale": 1,
       "layout": {
         "mode": "absolute",
         "x": 48,
-        "y": 1310,
+        "y": 1068,
         "zIndex": 6
       },
       "style": {
@@ -281,14 +281,14 @@
       "type": "ImageText",
       "enabled": true,
       "x": 48,
-      "y": 1562,
+      "y": 1320,
       "width": 1104,
       "height": 320,
       "scale": 1,
       "layout": {
         "mode": "absolute",
         "x": 48,
-        "y": 1562,
+        "y": 1320,
         "zIndex": 7
       },
       "style": {
@@ -334,14 +334,14 @@
       "type": "TrustBadge",
       "enabled": true,
       "x": 48,
-      "y": 1924,
+      "y": 1682,
       "width": 1104,
       "height": 210,
       "scale": 1,
       "layout": {
         "mode": "absolute",
         "x": 48,
-        "y": 1924,
+        "y": 1682,
         "zIndex": 8
       },
       "style": {
@@ -387,14 +387,14 @@
       "type": "ImageText",
       "enabled": true,
       "x": 48,
-      "y": 2176,
+      "y": 1934,
       "width": 1104,
       "height": 320,
       "scale": 1,
       "layout": {
         "mode": "absolute",
         "x": 48,
-        "y": 2176,
+        "y": 1934,
         "zIndex": 9
       },
       "style": {
@@ -440,14 +440,14 @@
       "type": "TrustBadge",
       "enabled": true,
       "x": 48,
-      "y": 2538,
+      "y": 2296,
       "width": 1104,
       "height": 210,
       "scale": 1,
       "layout": {
         "mode": "absolute",
         "x": 48,
-        "y": 2538,
+        "y": 2296,
         "zIndex": 10
       },
       "style": {
@@ -493,14 +493,14 @@
       "type": "TrustBadge",
       "enabled": true,
       "x": 48,
-      "y": 2790,
+      "y": 2548,
       "width": 1104,
       "height": 210,
       "scale": 1,
       "layout": {
         "mode": "absolute",
         "x": 48,
-        "y": 2790,
+        "y": 2548,
         "zIndex": 11
       },
       "style": {
@@ -546,14 +546,14 @@
       "type": "TrustBadge",
       "enabled": true,
       "x": 48,
-      "y": 3042,
+      "y": 2800,
       "width": 1104,
       "height": 210,
       "scale": 1,
       "layout": {
         "mode": "absolute",
         "x": 48,
-        "y": 3042,
+        "y": 2800,
         "zIndex": 12
       },
       "style": {
@@ -599,14 +599,14 @@
       "type": "TrustBadge",
       "enabled": true,
       "x": 48,
-      "y": 3294,
+      "y": 3052,
       "width": 1104,
       "height": 210,
       "scale": 1,
       "layout": {
         "mode": "absolute",
         "x": 48,
-        "y": 3294,
+        "y": 3052,
         "zIndex": 13
       },
       "style": {
@@ -652,14 +652,14 @@
       "type": "ImageText",
       "enabled": true,
       "x": 48,
-      "y": 3546,
+      "y": 3304,
       "width": 1104,
       "height": 320,
       "scale": 1,
       "layout": {
         "mode": "absolute",
         "x": 48,
-        "y": 3546,
+        "y": 3304,
         "zIndex": 14
       },
       "style": {
@@ -705,14 +705,14 @@
       "type": "TrustBadge",
       "enabled": true,
       "x": 48,
-      "y": 3908,
+      "y": 3666,
       "width": 1104,
       "height": 210,
       "scale": 1,
       "layout": {
         "mode": "absolute",
         "x": 48,
-        "y": 3908,
+        "y": 3666,
         "zIndex": 15
       },
       "style": {
@@ -758,14 +758,14 @@
       "type": "TrustBadge",
       "enabled": true,
       "x": 48,
-      "y": 4160,
+      "y": 3918,
       "width": 1104,
       "height": 210,
       "scale": 1,
       "layout": {
         "mode": "absolute",
         "x": 48,
-        "y": 4160,
+        "y": 3918,
         "zIndex": 16
       },
       "style": {
@@ -811,14 +811,14 @@
       "type": "TrustBadge",
       "enabled": true,
       "x": 48,
-      "y": 4412,
+      "y": 4170,
       "width": 1104,
       "height": 210,
       "scale": 1,
       "layout": {
         "mode": "absolute",
         "x": 48,
-        "y": 4412,
+        "y": 4170,
         "zIndex": 17
       },
       "style": {
@@ -864,14 +864,14 @@
       "type": "ImageText",
       "enabled": true,
       "x": 48,
-      "y": 4664,
+      "y": 4422,
       "width": 1104,
       "height": 320,
       "scale": 1,
       "layout": {
         "mode": "absolute",
         "x": 48,
-        "y": 4664,
+        "y": 4422,
         "zIndex": 18
       },
       "style": {
@@ -917,14 +917,14 @@
       "type": "TrustBadge",
       "enabled": true,
       "x": 48,
-      "y": 5026,
+      "y": 4784,
       "width": 1104,
       "height": 210,
       "scale": 1,
       "layout": {
         "mode": "absolute",
         "x": 48,
-        "y": 5026,
+        "y": 4784,
         "zIndex": 19
       },
       "style": {
@@ -970,14 +970,14 @@
       "type": "TrustBadge",
       "enabled": true,
       "x": 48,
-      "y": 5278,
+      "y": 5036,
       "width": 1104,
       "height": 210,
       "scale": 1,
       "layout": {
         "mode": "absolute",
         "x": 48,
-        "y": 5278,
+        "y": 5036,
         "zIndex": 20
       },
       "style": {
@@ -1023,14 +1023,14 @@
       "type": "TrustBadge",
       "enabled": true,
       "x": 48,
-      "y": 5530,
+      "y": 5288,
       "width": 1104,
       "height": 210,
       "scale": 1,
       "layout": {
         "mode": "absolute",
         "x": 48,
-        "y": 5530,
+        "y": 5288,
         "zIndex": 21
       },
       "style": {
@@ -1069,6 +1069,1066 @@
         "className": "text-4",
         "text": "Typography Documentation and examples for typography, headings, body text, lists, and more. Headings Heading Example <h1></h1> h1. Heading <",
         "content_hash": "d5010847faddbc92"
+      }
+    },
+    {
+      "id": "imagetext_21_d1d9dd1ae8039849",
+      "type": "ImageText",
+      "enabled": true,
+      "x": 48,
+      "y": 5540,
+      "width": 1104,
+      "height": 320,
+      "scale": 1,
+      "layout": {
+        "mode": "absolute",
+        "x": 48,
+        "y": 5540,
+        "zIndex": 22
+      },
+      "style": {
+        "width": 1104,
+        "height": 320,
+        "margin": "0",
+        "padding": "28px",
+        "background": "#FFFFFF",
+        "color": "#0F172A",
+        "buttonColor": "#2563EB",
+        "borderColor": "#E2E8F0",
+        "borderRadius": 18
+      },
+      "props": {
+        "sourceSelector": "section",
+        "sourceClass": "text-4",
+        "sourceHash": "d1d9dd1ae8039849"
+      },
+      "action": {
+        "type": "none",
+        "target": "",
+        "open_mode": "same_tab",
+        "tracking_id": "template_docs_imagetext"
+      },
+      "translations": {
+        "en": {
+          "title": "Code Documentation and examples for displaying inline and multiline blocks of ",
+          "subtitle": "Docs",
+          "body": "Be",
+          "label": "Open"
+        }
+      },
+      "source": {
+        "type": "CTASection",
+        "selector": "section",
+        "className": "text-4",
+        "text": "Code Documentation and examples for displaying inline and multiline blocks of code Inline code Wrap inline snippets of code with <code> . Be",
+        "content_hash": "d1d9dd1ae8039849"
+      }
+    },
+    {
+      "id": "imagetext_22_91f283f14dc3653d",
+      "type": "ImageText",
+      "enabled": true,
+      "x": 48,
+      "y": 5902,
+      "width": 1104,
+      "height": 320,
+      "scale": 1,
+      "layout": {
+        "mode": "absolute",
+        "x": 48,
+        "y": 5902,
+        "zIndex": 23
+      },
+      "style": {
+        "width": 1104,
+        "height": 320,
+        "margin": "0",
+        "padding": "28px",
+        "background": "#FFFFFF",
+        "color": "#0F172A",
+        "buttonColor": "#2563EB",
+        "borderColor": "#E2E8F0",
+        "borderRadius": 18
+      },
+      "props": {
+        "sourceSelector": "section",
+        "sourceClass": "text-4",
+        "sourceHash": "91f283f14dc3653d"
+      },
+      "action": {
+        "type": "none",
+        "target": "",
+        "open_mode": "same_tab",
+        "tracking_id": "template_docs_imagetext"
+      },
+      "translations": {
+        "en": {
+          "title": "Table Documentation and examples for opt-in styling of tables.",
+          "subtitle": "Docs",
+          "body": "iDocs is based on Bootstrap 4, so you can easily use Bootstrap's table classe",
+          "label": "Open"
+        }
+      },
+      "source": {
+        "type": "CTASection",
+        "selector": "section",
+        "className": "text-4",
+        "text": "Table Documentation and examples for opt-in styling of tables. iDocs is based on Bootstrap 4, so you can easily use Bootstrap's table classe",
+        "content_hash": "91f283f14dc3653d"
+      }
+    },
+    {
+      "id": "imagetext_23_e27c17cb746d36c2",
+      "type": "ImageText",
+      "enabled": true,
+      "x": 48,
+      "y": 6264,
+      "width": 1104,
+      "height": 320,
+      "scale": 1,
+      "layout": {
+        "mode": "absolute",
+        "x": 48,
+        "y": 6264,
+        "zIndex": 24
+      },
+      "style": {
+        "width": 1104,
+        "height": 320,
+        "margin": "0",
+        "padding": "28px",
+        "background": "#FFFFFF",
+        "color": "#0F172A",
+        "buttonColor": "#2563EB",
+        "borderColor": "#E2E8F0",
+        "borderRadius": 18
+      },
+      "props": {
+        "sourceSelector": "section",
+        "sourceClass": "html",
+        "sourceHash": "e27c17cb746d36c2"
+      },
+      "action": {
+        "type": "none",
+        "target": "",
+        "open_mode": "same_tab",
+        "tracking_id": "template_docs_imagetext"
+      },
+      "translations": {
+        "en": {
+          "title": "Icons Font Awesome icon sets are used in iDocs.",
+          "subtitle": "Docs",
+          "body": "<i class=\"fas fa-mobile-alt\"></i> <i class=\"fab fa-twitter\"></i> <i class=\"fas fa-credit-car",
+          "label": "Open"
+        }
+      },
+      "source": {
+        "type": "CTASection",
+        "selector": "section",
+        "className": "html",
+        "text": "Icons Font Awesome icon sets are used in iDocs. <i class=\"fas fa-mobile-alt\"></i> <i class=\"fab fa-twitter\"></i> <i class=\"fas fa-credit-car",
+        "content_hash": "e27c17cb746d36c2"
+      }
+    },
+    {
+      "id": "imagetext_24_cc324bb95c8198ee",
+      "type": "ImageText",
+      "enabled": true,
+      "x": 48,
+      "y": 6626,
+      "width": 1104,
+      "height": 320,
+      "scale": 1,
+      "layout": {
+        "mode": "absolute",
+        "x": 48,
+        "y": 6626,
+        "zIndex": 25
+      },
+      "style": {
+        "width": 1104,
+        "height": 320,
+        "margin": "0",
+        "padding": "28px",
+        "background": "#FFFFFF",
+        "color": "#0F172A",
+        "buttonColor": "#2563EB",
+        "borderColor": "#E2E8F0",
+        "borderRadius": 18
+      },
+      "props": {
+        "sourceSelector": "section",
+        "sourceClass": "text-4",
+        "sourceHash": "cc324bb95c8198ee"
+      },
+      "action": {
+        "type": "none",
+        "target": "",
+        "open_mode": "same_tab",
+        "tracking_id": "template_docs_imagetext"
+      },
+      "translations": {
+        "en": {
+          "title": "Image Documentation and examples for opting images into responsive behavior an",
+          "subtitle": "Docs",
+          "body": "Responsive I",
+          "label": "Open"
+        }
+      },
+      "source": {
+        "type": "CTASection",
+        "selector": "section",
+        "className": "text-4",
+        "text": "Image Documentation and examples for opting images into responsive behavior and add lightweight styles to them—all via classes. Responsive I",
+        "content_hash": "cc324bb95c8198ee"
+      }
+    },
+    {
+      "id": "imagetext_25_1431316606d14cfd",
+      "type": "ImageText",
+      "enabled": true,
+      "x": 48,
+      "y": 6988,
+      "width": 1104,
+      "height": 320,
+      "scale": 1,
+      "layout": {
+        "mode": "absolute",
+        "x": 48,
+        "y": 6988,
+        "zIndex": 26
+      },
+      "style": {
+        "width": 1104,
+        "height": 320,
+        "margin": "0",
+        "padding": "28px",
+        "background": "#FFFFFF",
+        "color": "#0F172A",
+        "buttonColor": "#2563EB",
+        "borderColor": "#E2E8F0",
+        "borderRadius": 18
+      },
+      "props": {
+        "sourceSelector": "section",
+        "sourceClass": "text-4",
+        "sourceHash": "1431316606d14cfd"
+      },
+      "action": {
+        "type": "none",
+        "target": "",
+        "open_mode": "same_tab",
+        "tracking_id": "template_docs_imagetext"
+      },
+      "translations": {
+        "en": {
+          "title": "Video Create responsive video embeds based on the width of the parent by creat",
+          "subtitle": "Docs",
+          "body": "Embedded Vid",
+          "label": "Open"
+        }
+      },
+      "source": {
+        "type": "CTASection",
+        "selector": "section",
+        "className": "text-4",
+        "text": "Video Create responsive video embeds based on the width of the parent by creating an intrinsic ratio that scales on any device. Embedded Vid",
+        "content_hash": "1431316606d14cfd"
+      }
+    },
+    {
+      "id": "trustbadge_26_b09791205ef31b1c",
+      "type": "TrustBadge",
+      "enabled": true,
+      "x": 48,
+      "y": 7350,
+      "width": 1104,
+      "height": 210,
+      "scale": 1,
+      "layout": {
+        "mode": "absolute",
+        "x": 48,
+        "y": 7350,
+        "zIndex": 27
+      },
+      "style": {
+        "width": 1104,
+        "height": 210,
+        "margin": "0",
+        "padding": "28px",
+        "background": "#FFFFFF",
+        "color": "#0F172A",
+        "buttonColor": "#2563EB",
+        "borderColor": "#E2E8F0",
+        "borderRadius": 18
+      },
+      "props": {
+        "sourceSelector": "section",
+        "sourceClass": "mb-5",
+        "sourceHash": "b09791205ef31b1c"
+      },
+      "action": {
+        "type": "none",
+        "target": "",
+        "open_mode": "same_tab",
+        "tracking_id": "template_docs_trustbadge"
+      },
+      "translations": {
+        "en": {
+          "title": "Components Setting up components is very easy.",
+          "subtitle": "Docs",
+          "body": "Here is the Some of shortcodes describe. also, iDocs is based on Bootstrap 4, so you can easi",
+          "label": "Open"
+        }
+      },
+      "source": {
+        "type": "TrustBadge",
+        "selector": "section",
+        "className": "mb-5",
+        "text": "Components Setting up components is very easy. Here is the Some of shortcodes describe. also, iDocs is based on Bootstrap 4, so you can easi",
+        "content_hash": "b09791205ef31b1c"
+      }
+    },
+    {
+      "id": "trustbadge_27_8973d58d43c28206",
+      "type": "TrustBadge",
+      "enabled": true,
+      "x": 48,
+      "y": 7602,
+      "width": 1104,
+      "height": 210,
+      "scale": 1,
+      "layout": {
+        "mode": "absolute",
+        "x": 48,
+        "y": 7602,
+        "zIndex": 28
+      },
+      "style": {
+        "width": 1104,
+        "height": 210,
+        "margin": "0",
+        "padding": "28px",
+        "background": "#FFFFFF",
+        "color": "#0F172A",
+        "buttonColor": "#2563EB",
+        "borderColor": "#E2E8F0",
+        "borderRadius": 18
+      },
+      "props": {
+        "sourceSelector": "section",
+        "sourceClass": "popup-img",
+        "sourceHash": "8973d58d43c28206"
+      },
+      "action": {
+        "type": "none",
+        "target": "",
+        "open_mode": "same_tab",
+        "tracking_id": "template_docs_trustbadge"
+      },
+      "translations": {
+        "en": {
+          "title": "Accordion You can extend the default collapse behavior to create an accordion.",
+          "subtitle": "Docs",
+          "body": "To properly achieve the accordion style, be sure to use .acco",
+          "label": "Open"
+        }
+      },
+      "source": {
+        "type": "TrustBadge",
+        "selector": "section",
+        "className": "popup-img",
+        "text": "Accordion You can extend the default collapse behavior to create an accordion. To properly achieve the accordion style, be sure to use .acco",
+        "content_hash": "8973d58d43c28206"
+      }
+    },
+    {
+      "id": "imagetext_28_6c0493e435ae2b5e",
+      "type": "ImageText",
+      "enabled": true,
+      "x": 48,
+      "y": 7854,
+      "width": 1104,
+      "height": 320,
+      "scale": 1,
+      "layout": {
+        "mode": "absolute",
+        "x": 48,
+        "y": 7854,
+        "zIndex": 29
+      },
+      "style": {
+        "width": 1104,
+        "height": 320,
+        "margin": "0",
+        "padding": "28px",
+        "background": "#FFFFFF",
+        "color": "#0F172A",
+        "buttonColor": "#2563EB",
+        "borderColor": "#E2E8F0",
+        "borderRadius": 18
+      },
+      "props": {
+        "sourceSelector": "section",
+        "sourceClass": "text-4",
+        "sourceHash": "6c0493e435ae2b5e"
+      },
+      "action": {
+        "type": "none",
+        "target": "",
+        "open_mode": "same_tab",
+        "tracking_id": "template_docs_imagetext"
+      },
+      "translations": {
+        "en": {
+          "title": "Tabs Default Bootstrap Nav component combined with iDocs for unique tabs.",
+          "subtitle": "Docs",
+          "body": "See below image and code for more information. <ul class=\"nav nav-",
+          "label": "Open"
+        }
+      },
+      "source": {
+        "type": "CTASection",
+        "selector": "section",
+        "className": "text-4",
+        "text": "Tabs Default Bootstrap Nav component combined with iDocs for unique tabs. See below image and code for more information. <ul class=\"nav nav-",
+        "content_hash": "6c0493e435ae2b5e"
+      }
+    },
+    {
+      "id": "trustbadge_29_95577dbbcbd9f8b0",
+      "type": "TrustBadge",
+      "enabled": true,
+      "x": 48,
+      "y": 8216,
+      "width": 1104,
+      "height": 210,
+      "scale": 1,
+      "layout": {
+        "mode": "absolute",
+        "x": 48,
+        "y": 8216,
+        "zIndex": 30
+      },
+      "style": {
+        "width": 1104,
+        "height": 210,
+        "margin": "0",
+        "padding": "28px",
+        "background": "#FFFFFF",
+        "color": "#0F172A",
+        "buttonColor": "#2563EB",
+        "borderColor": "#E2E8F0",
+        "borderRadius": 18
+      },
+      "props": {
+        "sourceSelector": "section",
+        "sourceClass": "html",
+        "sourceHash": "95577dbbcbd9f8b0"
+      },
+      "action": {
+        "type": "none",
+        "target": "",
+        "open_mode": "same_tab",
+        "tracking_id": "template_docs_trustbadge"
+      },
+      "translations": {
+        "en": {
+          "title": "Social Icon Social links with different styles.",
+          "subtitle": "Docs",
+          "body": "See below code for more information. <div class=\"d-flex flex-column\"> <ul class=\"social-icon",
+          "label": "Open"
+        }
+      },
+      "source": {
+        "type": "TrustBadge",
+        "selector": "section",
+        "className": "html",
+        "text": "Social Icon Social links with different styles. See below code for more information. <div class=\"d-flex flex-column\"> <ul class=\"social-icon",
+        "content_hash": "95577dbbcbd9f8b0"
+      }
+    },
+    {
+      "id": "trustbadge_30_c82e2f1790ca2304",
+      "type": "TrustBadge",
+      "enabled": true,
+      "x": 48,
+      "y": 8468,
+      "width": 1104,
+      "height": 210,
+      "scale": 1,
+      "layout": {
+        "mode": "absolute",
+        "x": 48,
+        "y": 8468,
+        "zIndex": 31
+      },
+      "style": {
+        "width": 1104,
+        "height": 210,
+        "margin": "0",
+        "padding": "28px",
+        "background": "#FFFFFF",
+        "color": "#0F172A",
+        "buttonColor": "#2563EB",
+        "borderColor": "#E2E8F0",
+        "borderRadius": 18
+      },
+      "props": {
+        "sourceSelector": "section",
+        "sourceClass": "ml-1",
+        "sourceHash": "c82e2f1790ca2304"
+      },
+      "action": {
+        "type": "none",
+        "target": "",
+        "open_mode": "same_tab",
+        "tracking_id": "template_docs_trustbadge"
+      },
+      "translations": {
+        "en": {
+          "title": "Helper Classes We have created some really useful helper classes for you.",
+          "subtitle": "Docs",
+          "body": "Here are a few of them. also, You can refer other default bootstra",
+          "label": "Open"
+        }
+      },
+      "source": {
+        "type": "TrustBadge",
+        "selector": "section",
+        "className": "ml-1",
+        "text": "Helper Classes We have created some really useful helper classes for you. Here are a few of them. also, You can refer other default bootstra",
+        "content_hash": "c82e2f1790ca2304"
+      }
+    },
+    {
+      "id": "trustbadge_31_f418fd5ccd7acfb4",
+      "type": "TrustBadge",
+      "enabled": true,
+      "x": 48,
+      "y": 8720,
+      "width": 1104,
+      "height": 210,
+      "scale": 1,
+      "layout": {
+        "mode": "absolute",
+        "x": 48,
+        "y": 8720,
+        "zIndex": 32
+      },
+      "style": {
+        "width": 1104,
+        "height": 210,
+        "margin": "0",
+        "padding": "28px",
+        "background": "#FFFFFF",
+        "color": "#0F172A",
+        "buttonColor": "#2563EB",
+        "borderColor": "#E2E8F0",
+        "borderRadius": 18
+      },
+      "props": {
+        "sourceSelector": "section",
+        "sourceClass": "text-4",
+        "sourceHash": "f418fd5ccd7acfb4"
+      },
+      "action": {
+        "type": "none",
+        "target": "",
+        "open_mode": "same_tab",
+        "tracking_id": "template_docs_trustbadge"
+      },
+      "translations": {
+        "en": {
+          "title": "FAQ A FAQ is a list of frequently asked questions (FAQs) and answers on a part",
+          "subtitle": "Docs",
+          "body": "What does royalty free mean? Lorem Ipsum is simp",
+          "label": "Open"
+        }
+      },
+      "source": {
+        "type": "TrustBadge",
+        "selector": "section",
+        "className": "text-4",
+        "text": "FAQ A FAQ is a list of frequently asked questions (FAQs) and answers on a particular topic. What does royalty free mean? Lorem Ipsum is simp",
+        "content_hash": "f418fd5ccd7acfb4"
+      }
+    },
+    {
+      "id": "trustbadge_32_7bdadb094c402f96",
+      "type": "TrustBadge",
+      "enabled": true,
+      "x": 48,
+      "y": 8972,
+      "width": 1104,
+      "height": 210,
+      "scale": 1,
+      "layout": {
+        "mode": "absolute",
+        "x": 48,
+        "y": 8972,
+        "zIndex": 33
+      },
+      "style": {
+        "width": 1104,
+        "height": 210,
+        "margin": "0",
+        "padding": "28px",
+        "background": "#FFFFFF",
+        "color": "#0F172A",
+        "buttonColor": "#2563EB",
+        "borderColor": "#E2E8F0",
+        "borderRadius": 18
+      },
+      "props": {
+        "sourceSelector": "div",
+        "sourceClass": "row",
+        "sourceHash": "7bdadb094c402f96"
+      },
+      "action": {
+        "type": "none",
+        "target": "",
+        "open_mode": "same_tab",
+        "tracking_id": "template_docs_trustbadge"
+      },
+      "translations": {
+        "en": {
+          "title": "What does royalty free mean?",
+          "subtitle": "Docs",
+          "body": "What does royalty free mean?",
+          "label": "Open"
+        }
+      },
+      "source": {
+        "type": "TrustBadge",
+        "selector": "div",
+        "className": "row",
+        "text": "What does royalty free mean?",
+        "content_hash": "7bdadb094c402f96"
+      }
+    },
+    {
+      "id": "trustbadge_33_82797b2ee4028bb4",
+      "type": "TrustBadge",
+      "enabled": true,
+      "x": 48,
+      "y": 9224,
+      "width": 1104,
+      "height": 210,
+      "scale": 1,
+      "layout": {
+        "mode": "absolute",
+        "x": 48,
+        "y": 9224,
+        "zIndex": 34
+      },
+      "style": {
+        "width": 1104,
+        "height": 210,
+        "margin": "0",
+        "padding": "28px",
+        "background": "#FFFFFF",
+        "color": "#0F172A",
+        "buttonColor": "#2563EB",
+        "borderColor": "#E2E8F0",
+        "borderRadius": 18
+      },
+      "props": {
+        "sourceSelector": "div",
+        "sourceClass": "collapse",
+        "sourceHash": "82797b2ee4028bb4"
+      },
+      "action": {
+        "type": "none",
+        "target": "",
+        "open_mode": "same_tab",
+        "tracking_id": "template_docs_trustbadge"
+      },
+      "translations": {
+        "en": {
+          "title": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+          "subtitle": "Docs",
+          "body": "Lorem Ipsum has been the industry's standard dummy text ever sinc",
+          "label": "Open"
+        }
+      },
+      "source": {
+        "type": "TrustBadge",
+        "selector": "div",
+        "className": "collapse",
+        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever sinc",
+        "content_hash": "82797b2ee4028bb4"
+      }
+    },
+    {
+      "id": "trustbadge_34_8c714cc1bb4146ff",
+      "type": "TrustBadge",
+      "enabled": true,
+      "x": 48,
+      "y": 9476,
+      "width": 1104,
+      "height": 210,
+      "scale": 1,
+      "layout": {
+        "mode": "absolute",
+        "x": 48,
+        "y": 9476,
+        "zIndex": 35
+      },
+      "style": {
+        "width": 1104,
+        "height": 210,
+        "margin": "0",
+        "padding": "28px",
+        "background": "#FFFFFF",
+        "color": "#0F172A",
+        "buttonColor": "#2563EB",
+        "borderColor": "#E2E8F0",
+        "borderRadius": 18
+      },
+      "props": {
+        "sourceSelector": "div",
+        "sourceClass": "card",
+        "sourceHash": "8c714cc1bb4146ff"
+      },
+      "action": {
+        "type": "none",
+        "target": "",
+        "open_mode": "same_tab",
+        "tracking_id": "template_docs_trustbadge"
+      },
+      "translations": {
+        "en": {
+          "title": "What is a single application?",
+          "subtitle": "Docs",
+          "body": "What is a single application?",
+          "label": "Open"
+        }
+      },
+      "source": {
+        "type": "TrustBadge",
+        "selector": "div",
+        "className": "card",
+        "text": "What is a single application?",
+        "content_hash": "8c714cc1bb4146ff"
+      }
+    },
+    {
+      "id": "trustbadge_35_ced2de59f1d9c4c4",
+      "type": "TrustBadge",
+      "enabled": true,
+      "x": 48,
+      "y": 9728,
+      "width": 1104,
+      "height": 210,
+      "scale": 1,
+      "layout": {
+        "mode": "absolute",
+        "x": 48,
+        "y": 9728,
+        "zIndex": 36
+      },
+      "style": {
+        "width": 1104,
+        "height": 210,
+        "margin": "0",
+        "padding": "28px",
+        "background": "#FFFFFF",
+        "color": "#0F172A",
+        "buttonColor": "#2563EB",
+        "borderColor": "#E2E8F0",
+        "borderRadius": 18
+      },
+      "props": {
+        "sourceSelector": "div",
+        "sourceClass": "collapse",
+        "sourceHash": "ced2de59f1d9c4c4"
+      },
+      "action": {
+        "type": "none",
+        "target": "",
+        "open_mode": "same_tab",
+        "tracking_id": "template_docs_trustbadge"
+      },
+      "translations": {
+        "en": {
+          "title": "Iisque Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus te",
+          "subtitle": "Docs",
+          "body": "Food truck quinoa nesciunt laborum ei",
+          "label": "Open"
+        }
+      },
+      "source": {
+        "type": "TrustBadge",
+        "selector": "div",
+        "className": "collapse",
+        "text": "Iisque Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Food truck quinoa nesciunt laborum ei",
+        "content_hash": "ced2de59f1d9c4c4"
+      }
+    },
+    {
+      "id": "trustbadge_36_53bae2193fe8bfd9",
+      "type": "TrustBadge",
+      "enabled": true,
+      "x": 48,
+      "y": 9980,
+      "width": 1104,
+      "height": 210,
+      "scale": 1,
+      "layout": {
+        "mode": "absolute",
+        "x": 48,
+        "y": 9980,
+        "zIndex": 37
+      },
+      "style": {
+        "width": 1104,
+        "height": 210,
+        "margin": "0",
+        "padding": "28px",
+        "background": "#FFFFFF",
+        "color": "#0F172A",
+        "buttonColor": "#2563EB",
+        "borderColor": "#E2E8F0",
+        "borderRadius": 18
+      },
+      "props": {
+        "sourceSelector": "div",
+        "sourceClass": "card",
+        "sourceHash": "53bae2193fe8bfd9"
+      },
+      "action": {
+        "type": "none",
+        "target": "",
+        "open_mode": "same_tab",
+        "tracking_id": "template_docs_trustbadge"
+      },
+      "translations": {
+        "en": {
+          "title": "What are some examples of permitted end products?",
+          "subtitle": "Docs",
+          "body": "What are some examples of permitted end products?",
+          "label": "Open"
+        }
+      },
+      "source": {
+        "type": "TrustBadge",
+        "selector": "div",
+        "className": "card",
+        "text": "What are some examples of permitted end products?",
+        "content_hash": "53bae2193fe8bfd9"
+      }
+    },
+    {
+      "id": "trustbadge_37_64895f0e1296d71d",
+      "type": "TrustBadge",
+      "enabled": true,
+      "x": 48,
+      "y": 10232,
+      "width": 1104,
+      "height": 210,
+      "scale": 1,
+      "layout": {
+        "mode": "absolute",
+        "x": 48,
+        "y": 10232,
+        "zIndex": 38
+      },
+      "style": {
+        "width": 1104,
+        "height": 210,
+        "margin": "0",
+        "padding": "28px",
+        "background": "#FFFFFF",
+        "color": "#0F172A",
+        "buttonColor": "#2563EB",
+        "borderColor": "#E2E8F0",
+        "borderRadius": 18
+      },
+      "props": {
+        "sourceSelector": "div",
+        "sourceClass": "collapse",
+        "sourceHash": "64895f0e1296d71d"
+      },
+      "action": {
+        "type": "none",
+        "target": "",
+        "open_mode": "same_tab",
+        "tracking_id": "template_docs_trustbadge"
+      },
+      "translations": {
+        "en": {
+          "title": "Iisque persius interesset his et, in quot quidam persequeris vim, ad mea essen",
+          "subtitle": "Docs",
+          "body": "Mutat tacimates id sit. Ridens mediocritatem",
+          "label": "Open"
+        }
+      },
+      "source": {
+        "type": "TrustBadge",
+        "selector": "div",
+        "className": "collapse",
+        "text": "Iisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Mutat tacimates id sit. Ridens mediocritatem ",
+        "content_hash": "64895f0e1296d71d"
+      }
+    },
+    {
+      "id": "trustbadge_38_190d2acac1cc3bb0",
+      "type": "TrustBadge",
+      "enabled": true,
+      "x": 48,
+      "y": 10484,
+      "width": 1104,
+      "height": 210,
+      "scale": 1,
+      "layout": {
+        "mode": "absolute",
+        "x": 48,
+        "y": 10484,
+        "zIndex": 39
+      },
+      "style": {
+        "width": 1104,
+        "height": 210,
+        "margin": "0",
+        "padding": "28px",
+        "background": "#FFFFFF",
+        "color": "#0F172A",
+        "buttonColor": "#2563EB",
+        "borderColor": "#E2E8F0",
+        "borderRadius": 18
+      },
+      "props": {
+        "sourceSelector": "div",
+        "sourceClass": "card",
+        "sourceHash": "190d2acac1cc3bb0"
+      },
+      "action": {
+        "type": "none",
+        "target": "",
+        "open_mode": "same_tab",
+        "tracking_id": "template_docs_trustbadge"
+      },
+      "translations": {
+        "en": {
+          "title": "I'm not sure if my use is covered.",
+          "subtitle": "Docs",
+          "body": "What should I do?",
+          "label": "Open"
+        }
+      },
+      "source": {
+        "type": "TrustBadge",
+        "selector": "div",
+        "className": "card",
+        "text": "I'm not sure if my use is covered. What should I do?",
+        "content_hash": "190d2acac1cc3bb0"
+      }
+    },
+    {
+      "id": "trustbadge_39_ee4e22e8263359ad",
+      "type": "TrustBadge",
+      "enabled": true,
+      "x": 48,
+      "y": 10736,
+      "width": 1104,
+      "height": 210,
+      "scale": 1,
+      "layout": {
+        "mode": "absolute",
+        "x": 48,
+        "y": 10736,
+        "zIndex": 40
+      },
+      "style": {
+        "width": 1104,
+        "height": 210,
+        "margin": "0",
+        "padding": "28px",
+        "background": "#FFFFFF",
+        "color": "#0F172A",
+        "buttonColor": "#2563EB",
+        "borderColor": "#E2E8F0",
+        "borderRadius": 18
+      },
+      "props": {
+        "sourceSelector": "div",
+        "sourceClass": "collapse",
+        "sourceHash": "ee4e22e8263359ad"
+      },
+      "action": {
+        "type": "none",
+        "target": "",
+        "open_mode": "same_tab",
+        "tracking_id": "template_docs_trustbadge"
+      },
+      "translations": {
+        "en": {
+          "title": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+          "subtitle": "Docs",
+          "body": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusa",
+          "label": "Open"
+        }
+      },
+      "source": {
+        "type": "TrustBadge",
+        "selector": "div",
+        "className": "collapse",
+        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Anim pariatur cliche reprehenderit, enim eiusmod high life accusa",
+        "content_hash": "ee4e22e8263359ad"
+      }
+    },
+    {
+      "id": "trustbadge_40_e7817504ef252745",
+      "type": "TrustBadge",
+      "enabled": true,
+      "x": 48,
+      "y": 10988,
+      "width": 1104,
+      "height": 210,
+      "scale": 1,
+      "layout": {
+        "mode": "absolute",
+        "x": 48,
+        "y": 10988,
+        "zIndex": 41
+      },
+      "style": {
+        "width": 1104,
+        "height": 210,
+        "margin": "0",
+        "padding": "28px",
+        "background": "#FFFFFF",
+        "color": "#0F172A",
+        "buttonColor": "#2563EB",
+        "borderColor": "#E2E8F0",
+        "borderRadius": 18
+      },
+      "props": {
+        "sourceSelector": "div",
+        "sourceClass": "card",
+        "sourceHash": "e7817504ef252745"
+      },
+      "action": {
+        "type": "none",
+        "target": "",
+        "open_mode": "same_tab",
+        "tracking_id": "template_docs_trustbadge"
+      },
+      "translations": {
+        "en": {
+          "title": "What is a single application?",
+          "subtitle": "Docs",
+          "body": "What is a single application?",
+          "label": "Open"
+        }
+      },
+      "source": {
+        "type": "TrustBadge",
+        "selector": "div",
+        "className": "card",
+        "text": "What is a single application?",
+        "content_hash": "e7817504ef252745"
       }
     }
   ],
