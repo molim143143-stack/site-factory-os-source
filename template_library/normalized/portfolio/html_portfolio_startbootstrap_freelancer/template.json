@@ -1,0 +1,28 @@
+{
+  "id": "html_portfolio_startbootstrap_freelancer",
+  "name": "startbootstrap-freelancer",
+  "repo_url": "https://github.com/startbootstrap/startbootstrap-freelancer",
+  "repo_name": "startbootstrap-freelancer",
+  "stars": 2608,
+  "license": "MIT",
+  "framework": "html",
+  "category": "portfolio",
+  "last_commit": "2023-03-25T19:42:56Z",
+  "source_path": "template_library/raw/html/startbootstrap-freelancer/dist/index.html",
+  "local_raw_path": "template_library/raw/html/startbootstrap-freelancer",
+  "normalized_path": "template_library/normalized/portfolio/html_portfolio_startbootstrap_freelancer",
+  "template_type": "static_template",
+  "status": "available",
+  "entry": "index.html",
+  "preview": "preview.html",
+  "checks": {
+    "header": true,
+    "hero": true,
+    "features": true,
+    "cta": true,
+    "footer": true,
+    "html_length": 30997,
+    "css_length": 241506,
+    "blocks": 20
+  }
+}
